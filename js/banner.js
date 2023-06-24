@@ -10,6 +10,7 @@ fetch('./data.json')
 
 function performOtherTasks() {
     document.addEventListener("DOMContentLoaded", function () {
+        console.log('data', data);
         mapMetaDataInHeader();
         setBannerData();
         mapSocialLinksData();
