@@ -9,9 +9,6 @@ jobs:
         # Checkout Repository
         - name: Checkout
           uses: actions/checkout@v3
-          # with:
-          #   fetch-depth: 0
-            # token: ${{ secrets.GP_TOKEN }}
 
         # Git configure
         - name: Setup git configs
