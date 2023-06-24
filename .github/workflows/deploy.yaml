@@ -20,15 +20,5 @@ jobs:
         - name: Build and Deploy
           uses: JamesIves/github-pages-deploy-action@v4
           with:
-            # ACCESS_TOKEN: ${{ secrets.GP_TOKEN }}
             branch: gh-pages # The branch the action should deploy to.
             folder: src # The folder the action should deploy.
-
-        # # Deploy Firebase Hosting
-        # - name: Deploy Firebase Hosting
-        #   uses: w9jds/firebase-action@master
-        #   with:
-        #     args: deploy --only hosting:mhmzdev-666 # ID of project at firebase
-        #   env:
-        #     FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        #     PROJECT_PATH: ./
