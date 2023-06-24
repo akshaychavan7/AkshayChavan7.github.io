@@ -15,7 +15,7 @@ jobs:
         # Git configure
         - name: Setup git configs
           run: |
-            git checkout main
+            git checkout master
             git config --global user.name "akshaychavan7"
             git config --global user.email "akshaychavan.kkwedu@gmail.com"
 
