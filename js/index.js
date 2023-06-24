@@ -1,8 +1,9 @@
 // load personal profile data
+let data = {}
 fetch('./data.json')
     .then((response) => response.json())
     .then((json) => {
-        const data = json;
+        data = json;
         performOtherTasks();
     } 
     );
