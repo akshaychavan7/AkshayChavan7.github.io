@@ -19,7 +19,6 @@ function performOtherTasks() {
 
 function mapMetaDataInHeader() {
     // document.querySelector('meta[name="description"]').setAttribute("content", _desc);
-    // #6eb0f3
 }
 
 function setBannerData() {
