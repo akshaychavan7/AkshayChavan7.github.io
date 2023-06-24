@@ -1,15 +1,20 @@
 // load personal profile data
-let data = {};
 fetch('./data.json')
     .then((response) => response.json())
-    .then((json) => data = json);
+    .then((json) => {
+        const data = json;
+        performOtherTasks();
+    } 
+    );
 
-document.addEventListener("DOMContentLoaded", function () {
-    mapMetaDataInHeader();
-    setBannerData();
-    mapSocialLinksData();
-    mapStatsData();
-});
+function performOtherTasks() {
+    document.addEventListener("DOMContentLoaded", function () {
+        mapMetaDataInHeader();
+        setBannerData();
+        mapSocialLinksData();
+        mapStatsData();
+    });
+}
 
 function mapMetaDataInHeader() {
     // document.querySelector('meta[name="description"]').setAttribute("content", _desc);
