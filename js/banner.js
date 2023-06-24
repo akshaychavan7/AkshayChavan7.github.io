@@ -11,7 +11,7 @@ function performOtherTasks(data) {
         console.log('data', data);
         mapMetaDataInHeader();
         setBannerData(data);
-        mapSocialLinksData();
+        mapSocialLinksData(data);
         mapStatsData();
     // });
 }
