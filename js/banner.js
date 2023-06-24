@@ -1,18 +1,16 @@
 // load personal profile data
-let data = {}
 fetch('./data.json')
     .then((response) => response.json())
     .then((json) => {
-        data = json;
-        performOtherTasks();
+        performOtherTasks(json);
     } 
     );
 
-function performOtherTasks() {
+function performOtherTasks(data) {
     // document.addEventListener("DOMContentLoaded", function () {
         console.log('data', data);
         mapMetaDataInHeader();
-        setBannerData();
+        setBannerData(data);
         mapSocialLinksData();
         mapStatsData();
     // });
@@ -22,7 +20,7 @@ function mapMetaDataInHeader() {
     // document.querySelector('meta[name="description"]').setAttribute("content", _desc);
 }
 
-function setBannerData() {
+function setBannerData(data) {
     document.getElementById("tag-label").innerHTML = data.role;
     document.getElementById("first-name").innerHTML = data.firstName;
     document.getElementById("last-name").innerHTML = data.lastName.toUpperCase();
