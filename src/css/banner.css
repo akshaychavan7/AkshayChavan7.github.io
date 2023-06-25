@@ -1,6 +1,6 @@
 #chip {
-    margin: 5px;
-    background-color: #313131;
+    /* margin: 5px;
+    background-color: #5c50be;
     border: 1px solid #5a5a5a;
     box-shadow: 0px 0px 10px #3d3d3d;
     color: white;
@@ -8,6 +8,36 @@
     height: 2em;
     border-radius: 4px;
     justify-content: center;
+    align-items: center;
+    display: flex; */
+
+    margin: 5px;
+    background-color: var(--color-primary);
+    border: 1px solid #939393;
+    /* box-shadow: 0px 0px 4px #5770b6; */
+    /* box-shadow: #5770b6 -4px 0px 11px -4px; */
+    box-shadow: #5770b6 0px 2px 6px -1px, #2730454a 0px 2px 4px -1px;
+    color: black;
+    width: 12.5em;
+    height: 2em;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.type-text-container {
+    margin: 5px;
+    background-color: #313131;
+    border: 1px solid #5a5a5a;
+    box-shadow: 0px 0px 10px #3d3d3d;
+    color: white;
+    width: 20.5em;
+    height: 2em;
+    border-radius: 4px;
+    padding-left: 1.5em;
+    padding: 17px;
+    font-size: 14px;
     align-items: center;
     display: flex;
 }
@@ -18,6 +48,11 @@
 
 #tag {
     color: white;
+}
+
+.terminal-prefix-text {
+    color: #52c41a;
+    font-weight: 600;
 }
 
 .txt-type>.txt {
