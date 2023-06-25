@@ -54,10 +54,10 @@ class TypeWriter {
 
 function init() {
     const txtElement = document.querySelector('.txt-type');
-    const words = JSON.parse(txtElement.getAttribute('data-words'));
+    // const words = JSON.parse(txtElement.getAttribute('data-words'));
     const wait = txtElement.getAttribute('data-wait');
     // Init TypeWriter
-    new TypeWriter(txtElement, words, wait);
+    new TypeWriter(txtElement, data.actionVerbs, wait);
 }
 
 document.addEventListener('DOMContentLoaded', init);
