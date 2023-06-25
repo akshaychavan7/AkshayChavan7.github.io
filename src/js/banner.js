@@ -1,61 +1,24 @@
-// load personal profile data
-fetch('./data.json')
-    .then((response) => response.json())
-    .then((json) => {
-        performOtherTasks(json);
-    } 
-    );
+document.addEventListener("DOMContentLoaded", function () {
+    mapMetaDataInHeader();
+    setBannerData();
+    mapSocialLinksData();
+    mapStatsData();
+});
 
-function performOtherTasks(data) {
-    // document.addEventListener("DOMContentLoaded", function () {
-        console.log('data', data);
-        mapMetaDataInHeader();
-        setBannerData(data);
-        mapSocialLinksData(data);
-        mapStatsData();
-    // });
-}
 
 function mapMetaDataInHeader() {
     // document.querySelector('meta[name="description"]').setAttribute("content", _desc);
 }
 
-function setBannerData(data) {
+function setBannerData() {
     document.getElementById("tag-label").innerHTML = data.role;
     document.getElementById("first-name").innerHTML = data.firstName;
     document.getElementById("last-name").innerHTML = data.lastName.toUpperCase();
-    document.getElementById("brand").innerHTML = data.firstName+" "+data.lastName;
-
+    document.getElementById("brand").innerHTML = data.firstName + " " + data.lastName;
 }
 
 function mapSocialLinksData() {
-    let socials = [
-        {
-            "icon": "fa fa-linkedin-square",
-            "value": "https://linkedin.com/in/mhmzdev"
-        },
-        {
-            "icon": "fa fa-github",
-            "value": "https://github.com/mhmzdev"
-        },
-        {
-            "icon": "fa fa-medium",
-            "value": "https://mhmzdev.medium.com"
-        },
-        {
-            "icon": "fa fa-facebook-square",
-            "value": "https://facebook.com/mhmzdev"
-        },
-        {
-            "icon": "fa fa-instagram",
-            "value": "https://instagram.com/mhmzdev"
-        },
-        {
-            "icon": "fa fa-twitter",
-            "value": "https://twitter.com/mhmzdev"
-        }
-    ];
-
+    socials = data.socials;
     // icons in top section
     for (var i = 0; i < socials.length; i++) {
         var anchor = document.createElement("a");
@@ -99,23 +62,7 @@ function mapSocialLinksData() {
 }
 
 function mapStatsData() {
-    let stats = [
-        {
-            "value": "4+",
-            "text-1": "Years",
-            "text-2": "Experience"
-        },
-        {
-            "value": "35+",
-            "text-1": "Projects Completed",
-            "text-2": "in 10+ Countries"
-        },
-        {
-            "value": "109k+",
-            "text-1": "Content",
-            "text-2": "Reach & Views"
-        }
-    ];
+    let stats = data.stats;
 
     for (var i = 0; i < stats.length; i++) {
         var stat = stats[i];
