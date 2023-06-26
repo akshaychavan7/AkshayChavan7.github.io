@@ -96,14 +96,14 @@ nav .navbar-nav li a:hover {
     top: 10%;
 }
 
-#repo-link {
+.repo-link {
     background-color: transparent;
     color: white;
     font-size: 38px;
     transition: .5s;
 }
 
-#repo-link:hover {
+.repo-link:hover {
     color: var(--color-primary);
 }
 

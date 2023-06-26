@@ -51,7 +51,7 @@
     }
 
     .chat {
-        padding-top: 3.5%;
+        padding-top: 2.5%;
     }
 
     #chat-btn {
@@ -61,7 +61,7 @@
     .stats-div {
         position: absolute;
         padding-left: 7%;
-        bottom: 3%;
+        bottom: 4.5%;
     }
 
     .stats {
