@@ -15,6 +15,7 @@ function setBannerData() {
     document.getElementById("first-name").innerHTML = data.firstName;
     document.getElementById("last-name").innerHTML = data.lastName.toUpperCase();
     document.getElementById("brand").innerHTML = data.firstName + " " + data.lastName;
+    document.getElementById("about-me-text").innerHTML = data.aboutMeText;
 }
 
 function mapSocialLinksData() {
@@ -25,7 +26,7 @@ function mapSocialLinksData() {
         anchor.className = "social-icon-wrapper";
 
         var icon = document.createElement("i");
-        icon.className = "social-icon " + socials[i]["icon"];
+        icon.className =  socials[i]["icon"] + " social-icon";
 
         var link = socials[i]["value"];
         anchor.href = link;
