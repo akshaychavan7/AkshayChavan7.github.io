@@ -1,7 +1,7 @@
 @media only screen and (min-width:1201px) {
 
     .tag-wrapper {
-        padding-top: 10%;
+        padding-top: 8%;
         padding-left: 10%;
     }
 
@@ -61,7 +61,7 @@
     .stats-div {
         position: absolute;
         padding-left: 7%;
-        bottom: 4.5%;
+        /* bottom: 4.5%; */
     }
 
     .stats {
