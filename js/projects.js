@@ -5,32 +5,24 @@ document.addEventListener("DOMContentLoaded", function () {
 function mapProjectsData() {
     let projects = [
         {
-            "title": "The Holy Qur'an",
-            "image": "images/projects/quran.png",
+            "title": "Portable Antivirus System",
+            "image": "images/projects/portable-antivirus-system.png",
             "type": "Open Source",
             "labels": [
                 {
-                    "title": "Play",
-                    "link": "https://play.google.com/store/apps/details?id=com.hmz.al_quran"
-                },
-                {
-                    "title": "Web",
-                    "link": "https://mhmzdev.github.io/quran/"
-                },
-                {
                     "title": "GitHub",
-                    "link": "https://github.com/mhmzdev/the-holy-quran-app"
+                    "link": "https://github.com/akshaychavan7/PORTABLE-ANTIVIRUS-SYSTEM"
                 }
             ]
         },
         {
-            "title": "Devfolio",
-            "image": "images/projects/devfolio.png",
+            "title": "vaxicov",
+            "image": "images/projects/vaxicov.png",
             "type": "Open Source",
             "labels": [
                 {
                     "title": "Play",
-                    "link": "https://play.google.com/store/apps/details?id=com.hmz.folio"
+                    "link": "https://play.google.com/store/apps/details?id=com.akshaychavan.vaxicov&pli=1"
                 },
                 {
                     "title": "Web",
@@ -43,8 +35,8 @@ function mapProjectsData() {
             ]
         },
         {
-            "title": "Awesome Snackbar Content",
-            "image": "images/projects/snackbar.png",
+            "title": "FlashX",
+            "image": "images/projects/FlashX.png",
             "type": "Open Source",
             "labels": [
                 {
@@ -58,8 +50,8 @@ function mapProjectsData() {
             ]
         },
         {
-            "title": "COVID-19 Tracker",
-            "image": "images/projects/covid.png",
+            "title": "PriceLabs Assignment",
+            "image": "images/projects/pricelabs.png",
             "type": "Open Source",
             "labels": [
                 {
@@ -69,9 +61,9 @@ function mapProjectsData() {
             ]
         },
         {
-            "title": "Storius",
-            "image": "images/projects/storius.png",
-            "type": "Product",
+            "title": "Study Cloud React App",
+            "image": "images/projects/study-cloud.png",
+            "type": "Open Source",
             "labels": [
                 {
                     "title": "App",
@@ -88,21 +80,13 @@ function mapProjectsData() {
             ]
         },
         {
-            "title": "Sastaticket.pk",
-            "image": "images/projects/sastaticket.png",
-            "type": "Product",
+            "title": "Halo - Color Changing Light Bulb",
+            "image": "images/projects/color-changing-bulb.jpg",
+            "type": "Open Source",
             "labels": [
                 {
-                    "title": "App",
-                    "link": "https://apps.apple.com/in/app/sastaticket-flight-hotels/id1564441908"
-                },
-                {
-                    "title": "Play",
-                    "link": "https://play.google.com/store/apps/details?id=com.pk.sastaticket&hl=en&gl=US"
-                },
-                {
-                    "title": "Web",
-                    "link": "https://www.sastaticket.pk/"
+                    "title": "Demo",
+                    "link": "https://youtube.com/shorts/ff9eCN66Vxs?feature=share"
                 }
             ]
         }
@@ -147,14 +131,17 @@ function mapProjectsData() {
             var labelIcon = document.createElement("i");
 
             if (title == "App") {
-                labelIcon.className = "p-label-icon fa fa-apple";
+                labelIcon.className = "p-label-icon fa-brands fa-app-store";
             } else if (title == "Play") {
-                labelIcon.className = "p-label-icon fa fa-google";
+                labelIcon.className = "p-label-icon fa-brands fa-google-play";
             } else if (title == "Web") {
                 labelIcon.className = "p-label-icon fa fa-globe";
             } else if (title == "GitHub") {
-                labelIcon.className = "p-label-icon fa fa-github";
-            } else if (title == "Package") {
+                labelIcon.className = "p-label-icon fa-brands fa-github";
+            } else if (title == "Demo") {
+                labelIcon.className = "p-label-icon fa-brands fa-youtube";
+            } 
+            else if (title == "Package") {
                 labelIcon.className = "p-label-icon material-icons";
                 labelIcon.innerHTML = "widgets";
                 labelIcon.style.fontSize = "16px";
