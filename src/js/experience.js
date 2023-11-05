@@ -7,32 +7,29 @@ function mapExperienceData() {
 
     let exp = [
         {
-            "org": "Sastaticket.pk",
-            "position": "Associate Software Engineer",
+            "org": "PriceLabs",
+            "position": "Fullstack Engineer",
             "duration": "Jan 2022 - Present",
             "technologies": [
-                "Flutter",
-                "Dart",
-                "GitHub Actions",
-                "Supabase",
-                "Firebase",
-                "Fintech - Payments",
+                "Ruby on Rails", 
+                "Javascript", 
+                "React.js", 
+                "Ruby", 
+                "jQuery", 
+                "Bootstrap", 
+                "MySQL", 
+                "Redis", 
+                "Minitest", 
+                "Git", 
+                "Bitbucket",
                 "REST APIs",
-                "Dart package"
             ],
             "details": [
-                "Working with flutter_bloc state management, alongside provider to maintain local states and global use cases",
-                "Integrated payment gateways into flutter app with REST APIs",
-                "Handled local packages to maintain custom components and to maintain API architecture",
-                "Maintaining layered architecture for better encapsulation and abstraction of code from Application layer to domain layer and to data layer",
-                "Learned GitHub actions for CI/CD",
-                "Worked with various env. flavors in flutter app (dev, qa, stage, prod)",
-                "Learned concepts like ACL (Access Control List) for maintaining features in live app",
-                "Integration of REST APIs, Firebase and local cached concepts for better user experience",
-                "Added features in huge code base with scalability in mind, along with other concepts of OOP and design pattern.",
-                "Learned project management tools like Jira and Mural",
-                "Worked in Agile software methodology, worked in sprints and different team structures like Squads.",
-                "Helped in interviews and expanding team of developers."
+                "Enhanced Dynamic Pricing Mechanism: Elevated the efficiency of the dynamic pricing strategy by 25% by streamlining workflow, leading to a 40% reduction in UI interactions and an 8% boost in customer satisfaction.",
+                "Zoho SalesIQ Chat Integration: Successfully integrated Zoho SalesIQ chat, gathering user data and using logged-in user context to pre-fill ticket data, enabling 20% faster ticket handling.",
+                "Automated Localization Process: Engineered an automated localization process, eradicating the need for manual intervention, resulting in a 100% reduction in errors and a significant reduction in the turnaround time." ,
+                "Agile Software Methodology and Team Structures: Flourished in an Agile environment, executing tasks within dynamic sprints and collaborating within diverse team setups, such as Squads.",
+"Team Growth and Recruitment Support: Contributed significantly to expanding the developer team by actively participating in the interviewing process and offering valuable support.",
             ]
         },
         {

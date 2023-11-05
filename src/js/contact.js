@@ -7,18 +7,18 @@ function mapContactDetails() {
     let contactInfo = [
         {
             "icon": "fa fa-phone",
-            "label": "+92 311 1559877",
-            "link": "https://wa.me/923111559877"
+            "label": "+1 617-708-7177",
+            "link": "https://wa.me/919822479700"
         },
         {
             "icon": "fa fa-envelope",
-            "label": "hamza.6.shakeel@gmail.com",
-            "link": "mailto:hamza.6.shakeel@gmail.com"
+            "label": "akshaychavan.kkwedu@gmail.com",
+            "link": "mailto:akshaychavan.kkwedu@gmail.com"
         },
         {
-            "icon": "images/svgs/upwork.svg",
+            "icon": "images/hire_me.png",
             "label": "Hire Me",
-            "link": "https://www.upwork.com/freelancers/~0197b0f6aaeba9675f"
+            "link": "https://www.linkedin.com/in/akshaychavan7/"
         }
     ];
 
@@ -61,7 +61,7 @@ function mapContactDetails() {
 }
 
 function onMeetClick() {
-    window.open("https://calendly.com/mhmzdev/meet", '_blank');
+    window.open("https://calendly.com/akshaychavan7/30min", '_blank');
 }
 
 function currentDate() {
