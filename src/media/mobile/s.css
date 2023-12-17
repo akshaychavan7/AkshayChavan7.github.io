@@ -1,196 +1,193 @@
 @media only screen and (min-width: 401px) and (max-width: 480px) {
-    #brand {
-        font-size: calc(18px + 1vw);
-    }
+  #brand {
+    font-size: calc(18px + 1vw);
+  }
 
-    #app-navbar {
-        padding-left: 2%;
-        padding-right: 10%;
-    }
+  #app-navbar {
+    padding-left: 2%;
+    padding-right: 10%;
+  }
 
-    .tag-wrapper {
-        padding-top: 5%;
-        padding-left: 5%;
-    }
+  .tag-wrapper {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
 
-    .name {
-        padding-left: 5%;
-        padding-top: 2%;
-    }
+  .name {
+    padding-left: 5%;
+    padding-top: 2%;
+  }
 
+  .tag {
+    padding-top: 2%;
+    padding-left: 4%;
+    display: flex;
+  }
 
-    .tag {
-        padding-top: 2%;
-        padding-left: 4%;
-        display: flex;
-    }
+  #tag {
+    color: white;
+    padding-left: 1%;
+  }
 
-    #tag {
-        color: white;
-        padding-left: 1%;
-    }
+  .trianlge-right {
+    margin-top: 3px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 15px solid var(--color-primary);
+    border-bottom: 8px solid transparent;
+  }
 
-    .trianlge-right {
-        margin-top: 3px;
-        width: 0;
-        height: 0;
-        border-top: 8px solid transparent;
-        border-left: 15px solid var(--color-primary);
-        border-bottom: 8px solid transparent;
-    }
+  .flexbox-container {
+    padding-top: 5%;
+  }
 
+  .social-icon-wrapper {
+    padding: 3.5%;
+    margin-right: 2%;
+  }
 
-    .flexbox-container {
-        padding-top: 5%;
-    }
+  .chat {
+    padding-top: 5.5%;
+  }
 
+  #chat-btn {
+    padding: 4%;
+  }
 
-    .social-icon-wrapper {
-        padding: 3.5%;
-        margin-right: 2%;
-    }
+  .stats {
+    display: flex;
+    background-color: transparent;
+  }
 
-    .chat {
-        padding-top: 5.5%;
-    }
+  .stats-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 3%;
+  }
 
-    #chat-btn {
-        padding: 4%;
-    }
+  .stats-data {
+    display: flex;
+    margin-left: 8%;
+    padding-top: 25px;
+  }
 
+  .stats-label-column {
+    width: 150px;
+    padding-left: 5%;
+  }
 
-    .stats {
-        display: flex;
-        background-color: transparent;
-    }
+  .profile-picture {
+    right: -15%;
+    float: right;
+    padding-right: 0;
+    position: relative;
+  }
 
-    .stats-div {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding-top: 3%;
-    }
+  .dp {
+    height: 300px;
+    margin-left: 15%;
+  }
 
-    .stats-data {
-        display: flex;
-        margin-left: 8%;
-        padding-top: 25px;
-    }
+  .space {
+    padding-top: 0px;
+  }
 
-    .stats-label-column {
-        width: 150px;
-        padding-left: 5%;
-    }
+  .about {
+    padding-top: 10%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-    .profile-picture {
-        right: -15%;
-        float: right;
-        padding-right: 0;
-        position: relative;
-    }
+  #about-img {
+    width: 90%;
+  }
 
-    .dp {
-        height: 300px;
-    }
+  .about-text {
+    text-align: center;
+  }
 
-    .space {
-        padding-top: 0px;
-    }
+  #about-me-heading,
+  #about-quote,
+  #about-me-text {
+    text-align: center;
+    width: 90%;
+  }
 
-    .about {
-        padding-top: 10%;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
+  .download-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
 
-    #about-img {
-        width: 90%;
-    }
+  .tech-stack {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .about-text {
-        text-align: center;
-    }
+  #tech-stack-text {
+    width: 100%;
+  }
 
-    #about-me-heading,
-    #about-quote,
-    #about-me-text {
-        text-align: center;
-        width: 90%;
-    }
+  #stack-illustration {
+    height: 300px;
+  }
 
-    .download-resume {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 5%;
-    }
+  .exp-card {
+    width: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: column;
+  }
 
-    .tech-stack {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  .exp-detail {
+    padding: 0;
+    width: 100%;
+  }
 
-    #tech-stack-text {
-        width: 100%;
-    }
+  .community-div {
+    flex-direction: column-reverse;
+  }
 
-    #stack-illustration {
-        height: 300px;
-    }
+  .cw-info {
+    width: 100%;
+    justify-self: center;
+    align-items: center;
+  }
 
-    .exp-card {
-        width: 95%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        flex-direction: column;
-    }
+  .cw-stats-div {
+    max-width: 100%;
+  }
 
-    .exp-detail {
-        padding: 0;
-        width: 100%
-    }
+  .community-card {
+    width: 100%;
+  }
 
-    .community-div {
-        flex-direction: column-reverse;
-    }
+  .c-title {
+    font-size: 14px;
+  }
 
-    .cw-info {
-        width: 100%;
-        justify-self: center;
-        align-items: center;
-    }
+  .calendar {
+    width: 400px;
+    height: 350px;
+  }
 
-    .cw-stats-div {
-        max-width: 100%;
-    }
+  .year-txt {
+    font-size: 16px;
+  }
 
-    .community-card {
-        width: 100%;
-    }
+  .dates {
+    padding-top: 5px;
+  }
 
-    .c-title {
-        font-size: 14px;
-    }
+  .contact-info-div {
+    padding-left: 5%;
+  }
 
-    .calendar {
-        width: 400px;
-        height: 350px;
-    }
-
-    .year-txt {
-        font-size: 16px;
-    }
-
-    .dates {
-        padding-top: 5px;
-    }
-
-    .contact-info-div {
-        padding-left: 5%;
-    }
-
-    #meet-btn {
-        margin-bottom: 20px;
-    }
+  #meet-btn {
+    margin-bottom: 20px;
+  }
 }

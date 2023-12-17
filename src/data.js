@@ -275,12 +275,19 @@ let data = {
           link: "https://play.google.com/store/apps/details?id=com.akshaychavan.vaxicov&pli=1",
         },
         {
-          title: "Web",
-          link: "http://mhmzdev.github.io/devfolio",
+          title: "GitHub",
+          link: "https://github.com/akshaychavan7/vaxicov-Covid19-Vaccine-Center-Availability-Checker",
         },
+      ],
+    },
+    {
+      title: "Image Processing Application",
+      image: "images/projects/Image Processing App.png",
+      type: "Private",
+      labels: [
         {
           title: "GitHub",
-          link: "https://github.com/mhmzdev/devfolio",
+          link: "https://github.com/akshaychavan7/Group/tree/master/assignment4",
         },
       ],
     },
@@ -290,16 +297,12 @@ let data = {
       type: "Private",
       labels: [
         {
-          title: "Play",
-          link: "https://play.google.com/store/apps/details?id=com.akshaychavan.vaxicov&pli=1",
-        },
-        {
           title: "Web",
-          link: "http://mhmzdev.github.io/devfolio",
+          link: "https://retailhub.netlify.app/",
         },
         {
           title: "GitHub",
-          link: "https://github.com/mhmzdev/devfolio",
+          link: "https://github.com/akshaychavan7/RetailHub",
         },
       ],
     },
@@ -313,8 +316,8 @@ let data = {
           link: "https://github.com/mhmzdev/awesome_snackbar_content",
         },
         {
-          title: "Package",
-          link: "https://pub.dev/packages/awesome_snackbar_content",
+          title: "App",
+          link: "https://drive.google.com/file/d/1vkG03bHhSYuZIq-O7ZHBsTc3wxqQ6JxY/view",
         },
       ],
     },
@@ -325,7 +328,7 @@ let data = {
       labels: [
         {
           title: "GitHub",
-          link: "https://github.com/mhmzdev/covid19-tracker-app",
+          link: "https://github.com/akshaychavan7/PriceLabs-Assignment",
         },
       ],
     },
@@ -335,16 +338,12 @@ let data = {
       type: "Open Source",
       labels: [
         {
-          title: "App",
-          link: "https://apps.apple.com/hk/app/storius-app/id1581928786?l=en",
-        },
-        {
-          title: "Play",
-          link: "https://play.google.com/store/apps/details?id=com.storius.storiusapp",
+          title: "GitHub",
+          link: "https://github.com/akshaychavan7/Study-Cloud-React-App",
         },
         {
           title: "Web",
-          link: "https://storiusapp.com/",
+          link: "https://akshaychavan7.github.io/Study-Cloud-React-App/",
         },
       ],
     },
@@ -356,6 +355,10 @@ let data = {
         {
           title: "Demo",
           link: "https://youtube.com/shorts/ff9eCN66Vxs?feature=share",
+        },
+        {
+          title: "GitHub",
+          link: "https://github.com/akshaychavan7",
         },
       ],
     },
