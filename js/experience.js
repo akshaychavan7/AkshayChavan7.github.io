@@ -9,7 +9,8 @@ function mapExperienceData() {
         {
             "org": "PriceLabs",
             "position": "Fullstack Engineer",
-            "duration": "Jan 2022 - Present",
+            "duration": "Oct 2022 - Sept 2023",
+            "location": "Chicago, IL, USA",
             "technologies": [
                 "Ruby on Rails", 
                 "Javascript", 
@@ -29,47 +30,55 @@ function mapExperienceData() {
                 "Zoho SalesIQ Chat Integration: Successfully integrated Zoho SalesIQ chat, gathering user data and using logged-in user context to pre-fill ticket data, enabling 20% faster ticket handling.",
                 "Automated Localization Process: Engineered an automated localization process, eradicating the need for manual intervention, resulting in a 100% reduction in errors and a significant reduction in the turnaround time." ,
                 "Agile Software Methodology and Team Structures: Flourished in an Agile environment, executing tasks within dynamic sprints and collaborating within diverse team setups, such as Squads.",
-"Team Growth and Recruitment Support: Contributed significantly to expanding the developer team by actively participating in the interviewing process and offering valuable support.",
+                "Team Growth and Recruitment Support: Contributed significantly to expanding the developer team by actively participating in the interviewing process and offering valuable support.",
             ]
         },
         {
-            "org": "Voxlabs",
-            "position": "Flutter/Dart Intern",
-            "duration": "Oct 2021 - Jan 2022",
+            "org": "Quantiphi Analytics",
+            "position": "Software Developer - Full Stack",
+            "duration": "July 2021 - Oct 2022",
+            "location": "Mumbai, MH, India",
             "technologies": [
-                "Flutter",
-                "Dart",
-                "Supabase",
-                "Firebase"
+                "React", 
+                "Angular", 
+                "Node.js", 
+                "Typescript", 
+                "Express.js", 
+                "Android", 
+                "Java", 
+                "Redis", 
+                "Firestore", 
+                "MongoDB", 
+                "Google Cloud Platform", 
+                "Git"
             ],
             "details": [
-                "Learned state management concepts like Bloc, futter bloc and provider",
-                "Worked with layered architecture",
-                "Integrated Supabase in flutter app",
-                "Used external packages for managing form input concepts - flutter_form_builder",
-                "Learned GitHub (Version Controlling) with a team, concepts like maintaining PRs, branches etc.",
-                "Improved concepts of reusable components"
+                "Conceptualized and built a comprehensive software solution powered by machine learning, achieving a 90% detection rate for construction defects, cutting field technician risk mitigation time by 30%, and saving $50,000 per project.",
+                "Developed machine learning integrated Web and Android apps for speech analytics, KPI forecasting, and real-time agent feedback, fully automating customer service calls across multiple businesses, slashing operational costs by 70%.",
+                "Designed and executed a robust transactional mechanism for seamless data synchronization between Firestore and MySQL databases, achieving a 98% reduction in data sync errors and boosting application reliability by 30%."
             ]
         },
         {
-            "org": "Storius",
-            "position": "Flutter/Dart Intern",
-            "duration": "Nov 2020 - Jan 2021",
+            "org": "FinIQ Consulting India",
+            "position": "Software Development Engineer",
+            "duration": "July 2019 - July 2021",
             "technologies": [
-                "Flutter",
-                "Dart",
-                "App script",
-                "Google maps"
+                "Angular", 
+                "NodeJS", 
+                "Typescript", 
+                "Javascript", 
+                "Express.js", 
+                "Android", 
+                "Java", 
+                "MySQL", 
+                "Git", 
+                "Bitbucket", 
+                "Postman"
             ],
             "details": [
-                "Developed first BETA version of storius app",
-                "Integrated Google sheets with App scripts that act as SQL database",
-                "Managed two different source of data into the app to overcome the place of Firebase",
-                "Learned and implemented MVC architecture for production level of application",
-                "Integrated Google maps, live markers and interaction of users with it",
-                "Added audio players on Google maps posted by users",
-                "Enhanced UX of beta version till 3rd revision",
-                "Helped in expanding team of developers with various resources"
+                "Spearheaded the design and implementation of high-performance structured trading applications for leading banks in Asia, including Bank of China and UBS, contributing to a monthly revenue of over $1 million.", 
+                "Revamped backend processes and optimized code for multiple software products, resulting in a remarkable 15% performance boost and a 20% reduction in maintenance overhead.",
+                "Implemented a robust CI/CD pipeline for a large-scale web app, reducing deployment time by 80% and enhancing release reliability through rigorous testing.",
             ]
         },
         {
