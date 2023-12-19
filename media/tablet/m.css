@@ -1,169 +1,168 @@
-@media only screen and (min-width: 481px) and (max-width:768px) {
-    .tag-wrapper {
-        padding: 4%;
-        padding-top: 5%;
-    }
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .tag-wrapper {
+    padding: 4%;
+    padding-top: 5%;
+  }
 
-    .name {
-        padding-left: 4%;
-        padding-bottom: 3%;
-    }
+  .name {
+    padding-left: 4%;
+    padding-bottom: 3%;
+  }
 
+  .tag {
+    padding-left: 4%;
+    display: flex;
+  }
 
-    .tag {
-        padding-left: 4%;
-        display: flex;
-    }
+  #tag {
+    color: white;
+    padding-left: 1%;
+  }
 
-    #tag {
-        color: white;
-        padding-left: 1%;
-    }
+  .trianlge-right {
+    margin-top: 3px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 15px solid var(--color-primary);
+    border-bottom: 8px solid transparent;
+  }
 
-    .trianlge-right {
-        margin-top: 3px;
-        width: 0;
-        height: 0;
-        border-top: 8px solid transparent;
-        border-left: 15px solid var(--color-primary);
-        border-bottom: 8px solid transparent;
-    }
+  .dash {
+    margin-left: 4%;
+    background-color: rgb(148, 148, 148);
+    height: 1px;
+    width: 100px;
+  }
 
-    .dash {
-        margin-left: 4%;
-        background-color: rgb(148, 148, 148);
-        height: 1px;
-        width: 100px;
-    }
+  .social-icon-wrapper {
+    padding: 2.5%;
+    margin-right: 1%;
+  }
 
-    .social-icon-wrapper {
-        padding: 2.5%;
-        margin-right: 1%;
-    }
+  .chat {
+    padding-top: 1.5%;
+  }
 
+  #chat-btn {
+    padding: 4%;
+  }
 
-    .chat {
-        padding-top: 1.5%;
-    }
+  .stats-div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-left: 2%;
+  }
 
-    #chat-btn {
-        padding: 4%;
-    }
+  .stats {
+    display: flex;
+    background-color: transparent;
+  }
 
-    .stats-div {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        padding-top: 5%;
-        padding-left: 2%;
-    }
+  .stats-label-column {
+    padding-left: 5%;
+  }
 
-    .stats {
-        display: flex;
-        background-color: transparent;
-    }
+  .stats-label {
+    width: 200px;
+  }
 
-    .stats-label-column {
-        padding-left: 5%;
-    }
+  .stats-data {
+    padding-top: 10%;
+  }
 
-    .stats-label {
-        width: 200px;
-    }
+  .profile-picture {
+    float: right;
+    position: relative;
+    right: 0%;
+  }
 
-    .stats-data {
-        padding-top: 10%;
-    }
+  .dp {
+    height: 450px;
+    margin-left: 5%;
+  }
 
-    .profile-picture {
-        float: right;
-        position: relative;
-        right: 0%;
-    }
+  .about {
+    padding-top: 10%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-    .dp {
-        height: 450px;
-    }
+  .about-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .about {
-        padding-top: 10%;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
+  #about-me-heading,
+  #about-quote,
+  #about-me-text {
+    text-align: center;
+  }
 
-    .about-text {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  #about-me-text {
+    width: 90%;
+  }
 
-    #about-me-heading,
-    #about-quote,
-    #about-me-text {
-        text-align: center;
-    }
+  #about-img {
+    height: 450px;
+  }
 
-    #about-me-text {
-        width: 90%;
-    }
+  .download-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
 
-    #about-img {
-        height: 450px;
-    }
+  .tech-stack {
+    flex-direction: column;
+  }
 
-    .download-resume {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 5%;
-    }
+  #stack-illustration {
+    height: 350px;
+  }
 
-    .tech-stack {
-        flex-direction: column;
-    }
+  .exp-card {
+    padding-left: 5%;
+  }
 
-    #stack-illustration {
-        height: 350px;
-    }
+  .community-div {
+    flex-direction: column-reverse;
+  }
 
-    .exp-card {
-        padding-left: 5%;
-    }
+  .cw-info {
+    width: 80%;
+    justify-self: center;
+    align-items: center;
+  }
 
-    .community-div {
-        flex-direction: column-reverse;
-    }
+  .cw-stats-div {
+    max-width: 100%;
+  }
 
-    .cw-info {
-        width: 80%;
-        justify-self: center;
-        align-items: center;
-    }
+  .calendar {
+    width: 400px;
+    height: 350px;
+  }
 
-    .cw-stats-div {
-        max-width: 100%;
-    }
+  .year-txt {
+    font-size: 16px;
+  }
 
-    .calendar {
-        width: 400px;
-        height: 350px;
-    }
+  .dates {
+    padding-top: 5px;
+  }
 
-    .year-txt {
-        font-size: 16px;
-    }
+  .contact-info-div {
+    padding-left: 5%;
+  }
 
-    .dates {
-        padding-top: 5px;
-    }
-
-    .contact-info-div {
-        padding-left: 5%;
-    }
-
-    #meet-btn {
-        margin-bottom: 20px;
-    }
+  #meet-btn {
+    margin-bottom: 20px;
+  }
 }
