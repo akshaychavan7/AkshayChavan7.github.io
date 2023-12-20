@@ -14,6 +14,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   scrollToTop();
   aosInit();
+  setupLoader();
 
   window.onscroll = function () {
     $(document).on("scroll", onScroll);
@@ -99,4 +100,9 @@ function onScroll(event) {
 
 function downloadResume() {
   window.open("images/Akshay_Chavan_Resume - v4.pdf", "_blank");
+}
+
+function setupLoader() {
+  const loader = document.getElementById("loader");
+  loader.setTimeout(() => {}, 3000);
 }

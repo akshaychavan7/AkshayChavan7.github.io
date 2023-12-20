@@ -22,11 +22,12 @@
     <link rel="stylesheet" href="theme/text_styles.css" />
 
     <link rel="stylesheet" href="css/banner.css" />
+    <link rel="stylesheet" href="css/loader.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/techStack.css" />
     <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/exp.css" />
-    <link rel="stylesheet" href="css/community.css" />
+    <link rel="stylesheet" href="css/education.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/currentDate.css" />
 
@@ -80,6 +81,10 @@
       href="dependencies/fonts/fonts.googleapis.com_css2_family=Montserrat_ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,300&display=swap.css"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Monsieur+La+Doulaise&family=Montserrat&family=Smooch&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- scripts -->
     <script src="dependencies/jQuery/ajax.googleapis.com_ajax_libs_jquery_3.6.1_jquery.min.js"></script>
@@ -104,7 +109,7 @@
         data-aos-delay="200"
         class="navbar-brand"
       >
-        < <span id="brand">Hamza </span>/>
+        < <span id="brand">Akshay </span>/>
       </a>
 
       <div class="collapse navbar-collapse" id="navbar-menu">
@@ -113,16 +118,16 @@
             <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item navbar-action">
-            <a href="#tech" class="nav-link">Tech</a>
+            <a href="#exp" class="nav-link">Experience</a>
           </li>
           <li class="nav-item navbar-action">
             <a href="#projects-div" class="nav-link">Projects</a>
           </li>
           <li class="nav-item navbar-action">
-            <a href="#exp" class="nav-link">Experience</a>
+            <a href="#tech" class="nav-link">Tech</a>
           </li>
           <li class="nav-item navbar-action">
-            <a href="#community" class="nav-link">Community</a>
+            <a href="#education" class="nav-link">Education</a>
           </li>
         </ul>
       </div>
@@ -132,6 +137,21 @@
       <i id="up-icon" class="fa fa-chevron-up"></i>
     </div>
     <!-- Navbar end -->
+
+    <!-- Loader -->
+    <!-- <div id="loader">
+      <div class="wrapper">
+        <div class="box-wrap">
+          <div class="box one"></div>
+          <div class="box two"></div>
+          <div class="box three"></div>
+          <div class="box four"></div>
+          <div class="box five"></div>
+          <div class="box six"></div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Loader end -->
 
     <!-- Banner -->
     <div id="banner-div" class="container-fluid">
@@ -192,6 +212,7 @@
           src="images//about/collage3.png"
           alt="my journey highlights"
         />
+        <p class="memory-lane">Memory Lane</p>
       </div>
 
       <div class="about-text">
@@ -200,8 +221,10 @@
         <h1 id="about-me-heading">Hello there! My name is Akshay</h1>
 
         <p id="about-quote">
-          “If you are not going to tell the world who you are, the world is not
-          going to tell you, how good you are.”
+          “Fueled by relentless curiosity and a belief in the power of
+          continuous learning, I am passionate about turning ideas into
+          well-crafted code, creating meaningful experiences that leave a
+          lasting impact.”
         </p>
 
         <p id="about-me-text"></p>
@@ -231,6 +254,48 @@
       </div>
     </div>
     <!-- About end -->
+
+    <!-- Experience -->
+    <div id="exp" class="container-fluid exp-div">
+      <p id="tech-stack-title">Experience</p>
+      <p
+        id="tech-stack-text"
+        style="
+          background-color: transparent;
+          text-align: center;
+          margin-bottom: 5%;
+        "
+      >
+        Reflecting on my journey and accomplishments thus far
+      </p>
+    </div>
+    <!-- Experience end -->
+
+    <!-- Projects -->
+    <div id="projects-div" class="container-fluid projects-div">
+      <p id="tech-stack-title">Projects</p>
+      <p
+        id="tech-stack-text"
+        style="background-color: transparent; text-align: center"
+      >
+        Passion projects that sparked my interest!
+      </p>
+
+      <div style="height: 50px"></div>
+
+      <div id="projects" class="projects"></div>
+
+      <div class="see-more">
+        <a
+          target="_blank"
+          href="https://github.com/akshaychavan7?tab=repositories"
+          class="body2"
+          id="see-more-btn"
+          >See More</a
+        >
+      </div>
+    </div>
+    <!-- Projects end -->
 
     <!-- Tech Stack -->
     <div id="tech" class="tech-stack">
@@ -309,73 +374,58 @@
     </div>
     <!-- Tech Stack end -->
 
-    <!-- Projects -->
-    <div id="projects-div" class="container-fluid projects-div">
-      <p id="tech-stack-title">Projects</p>
-      <p
-        id="tech-stack-text"
-        style="background-color: transparent; text-align: center"
-      >
-        Passion projects that sparked my interest!
-      </p>
-
-      <div style="height: 50px"></div>
-
-      <div id="projects" class="projects"></div>
-
-      <div class="see-more">
-        <a
-          target="_blank"
-          href="https://github.com/akshaychavan7?tab=repositories"
-          class="body2"
-          id="see-more-btn"
-          >See More</a
-        >
-      </div>
-    </div>
-    <!-- Projects end -->
-
-    <!-- Experience -->
-    <div id="exp" class="container-fluid exp-div">
-      <p id="tech-stack-title">Experience</p>
-      <p
-        id="tech-stack-text"
-        style="background-color: transparent; text-align: center"
-      >
-        Reflection of what I've been doing so far, so long.
-      </p>
-    </div>
-    <!-- Experience end -->
-
-    <!-- Community -->
-    <div id="community" class="container-fluid community-div">
-      <div id="communities" class="communities"></div>
-
-      <div class="cw-info">
-        <span class="body1 cw-title">Community Work</span>
-        <p class="label cw-quote">
-          "If you want to go fast, go alone. If you want to go far, go together"
-        </p>
-
-        <div class="cw-stats-row">
-          <div class="cw-stats-div">
-            <p class="heading1 cw-number">3</p>
-            <p class="cw-stats-text">Global Communitites</p>
-          </div>
-          <div class="cw-stats-div">
-            <p class="heading1 cw-number">50+</p>
-            <p class="cw-stats-text">Hosted Events</p>
-          </div>
-          <div class="cw-stats-div">
-            <p class="heading1 cw-number">2,500+</p>
-            <p class="cw-stats-text">In-person Engagements</p>
-          </div>
+    <!-- Education -->
+    <!-- <div id="education" class="container-fluid community-div">
+      <div class="Yearly-timeline">
+        <div class="timeline">
+          <a href="" class="timeline-content">
+            <div class="timeline-icon">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <h3 class="title">2018-2021</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              males uada tellus lorem, et condimentum neque commodo Integer
+              males uada tellus lorem, et condimentum neque commodo
+            </p>
+          </a>
         </div>
-
-        <ul id="cw-points" class="cw-points"></ul>
+        <div class="timeline">
+          <a href="" class="timeline-content">
+            <div class="timeline-icon"><i class="fa fa-twitter"></i></div>
+            <h3 class="title">2013-2017</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              males uada tellus lorem, et condimentum neque commodo Integer
+              males uada tellus lorem, et condimentum neque commodo
+            </p>
+          </a>
+        </div>
+        <div class="timeline">
+          <a href="" class="timeline-content">
+            <div class="timeline-icon"><i class="fa fa-facebook"></i></div>
+            <h3 class="title">2009-2012</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              males uada tellus lorem, et condimentum neque commodo Integer
+              males uada tellus lorem, et condimentum neque commodo
+            </p>
+          </a>
+        </div>
+        <div class="timeline">
+          <a href="" class="timeline-content">
+            <div class="timeline-icon"><i class="fa fa-linkedin"></i></div>
+            <h3 class="title">2006-2009</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              males uada tellus lorem, et condimentum neque commodo Integer
+              males uada tellus lorem, et condimentum neque commodo
+            </p>
+          </a>
+        </div>
       </div>
-    </div>
-    <!-- Community end -->
+    </div> -->
+    <!-- Education end -->
 
     <!-- Contact -->
     <div id="contact-div" class="container-fluid contact-div">

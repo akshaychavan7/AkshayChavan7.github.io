@@ -19,22 +19,23 @@ function mapExperienceData() {
         "MySQL",
         "Redis",
         "Minitest",
+        "JEST Testing",
         "Git",
         "Bitbucket",
         "REST APIs",
       ],
       details: [
-        "Enhanced Dynamic Pricing Mechanism: Elevated the efficiency of the dynamic pricing strategy by 25% by streamlining workflow, leading to a 40% reduction in UI interactions and an 8% boost in customer satisfaction.",
-        "Zoho SalesIQ Chat Integration: Successfully integrated Zoho SalesIQ chat, gathering user data and using logged-in user context to pre-fill ticket data, enabling 20% faster ticket handling.",
-        "Automated Localization Process: Engineered an automated localization process, eradicating the need for manual intervention, resulting in a 100% reduction in errors and a significant reduction in the turnaround time.",
-        "Agile Software Methodology and Team Structures: Flourished in an Agile environment, executing tasks within dynamic sprints and collaborating within diverse team setups, such as Squads.",
-        "Team Growth and Recruitment Support: Contributed significantly to expanding the developer team by actively participating in the interviewing process and offering valuable support.",
+        "Elevated the efficiency of the dynamic pricing strategy by 25% by streamlining workflow, leading to a 40% reduction in UI interactions and an 8% boost in customer satisfaction.",
+        "Successfully integrated Zoho SalesIQ chat, gathering user data and using logged-in user context to pre-fill ticket data, enabling 20% faster ticket handling.",
+        "Engineered an automated localization process, eradicating the need for manual intervention, resulting in a 100% reduction in errors and a significant reduction in the turnaround time.",
+        "Flourished in an Agile environment, executing tasks within dynamic sprints and collaborating within diverse team setups, such as Squads.",
+        "Contributed significantly to expanding the developer team by actively participating in the interviewing process and offering valuable support.",
       ],
       accentColor: "#bb86fc",
     },
     {
       org: "Quantiphi Analytics",
-      position: "Software Developer - Full Stack",
+      position: "Software Development Engineer - II",
       duration: "July 2021 - Oct 2022",
       location: "Mumbai, MH, India",
       technologies: [
@@ -62,6 +63,7 @@ function mapExperienceData() {
       org: "FinIQ Consulting India",
       position: "Software Development Engineer",
       duration: "July 2019 - July 2021",
+      location: "Pune, MH, India",
       technologies: [
         "Angular",
         "NodeJS",
@@ -86,6 +88,7 @@ function mapExperienceData() {
       org: "Carnegie Mellon University",
       position: "Research Intern",
       duration: "September 2021 - February 2022",
+      location: "Pittsburgh, PA, USA",
       technologies: [
         "Python",
         "Deep Learning",
@@ -105,6 +108,7 @@ function mapExperienceData() {
       org: "The Sparks Foundation",
       position: "Mobile Application Development Intern",
       duration: "November 2021 - December 2022",
+      location: "Singapore",
       technologies: [
         "Java",
         "Android",
@@ -116,7 +120,7 @@ function mapExperienceData() {
       details: [
         "Successfully designed and developed mobile applications utilizing Android, DBBrowser, and SQLite, effectively meeting project requirements and achieving assigned tasks.",
         "Played a key role in supporting fellow interns by addressing their task-related queries and offering technical implementation guidance. This collaborative effort significantly contributed to team productivity and a positive working environment.",
-        "Created detailed video demonstrations showcasing the functionality and features of the developed applications. These videos serve as comprehensive documentation and can be accessed for a closer look at the applications' capabilities:<br/> <div>1. <a href='https://youtu.be/haOWBllnH-o'>Banking Application</a></div> <div>2. <a href='https://youtu.be/JEsCieN_Dgo'>Social Media Integration for Banking Application</a></div>",
+        "Created detailed video demonstrations showcasing the functionality and features of the developed applications. These videos serve as comprehensive documentation and can be accessed for a closer look at the applications' capabilities:<br/> <div>1. <a href='https://youtu.be/haOWBllnH-o'>Banking Application</a></div> <div>2. <a href='https://youtu.be/JEsCieN_Dgo'>Authentication using Social Platforms</a></div>",
       ],
       accentColor: "#4cadad",
     },
@@ -124,6 +128,7 @@ function mapExperienceData() {
       org: "FinIQ Consulting India",
       position: "Software Development Engineer Intern",
       duration: "May 2018 - June 2018",
+      location: "Nashik, MH, India",
       technologies: [
         "Python",
         "Angular 8",
@@ -155,16 +160,25 @@ function mapExperienceData() {
   for (var i = 0; i < exp.length; i++) {
     const experience = exp[i];
     var experienceDescriptionList = "";
+    var techStack =
+      "<span style='font-weight:600'>Tech Stack:</span> " +
+      experience.technologies.join(", ");
     for (var j = 0; j < experience.details.length; j++) {
-      experienceDescriptionList += `<div class='exp-item'><i class="fa fa-angle-double-right experience-bullet" aria-hidden="true"></i><li id='exp-point'>${experience.details[j]}</li></div>`;
+      experienceDescriptionList += `<div class='exp-item'>
+      <i class="fa fa-angle-double-right experience-bullet" aria-hidden="true"></i>
+      <li id='exp-point'>${experience.details[j]}</li>
+      </div>`;
     }
-    // experienceDescriptionList =
-    //   "<ul id='exp-desc'>" + experienceDescriptionList + "</ul>";
-    console.log(experienceDescriptionList);
+    experienceDescriptionList += `<div class='exp-item'>
+    <i class="fa fa-angle-double-right experience-bullet" aria-hidden="true"></i>
+    <li id='exp-point'>${techStack}</li>
+    </div>`;
+
     const experienceItem = `
           <li id="experience-item" style="--accent-color: ${experience.accentColor}">
             <div class="company-name">${experience.org} </div>
             <div class="title">${experience.position} <span class='exp-duration'>${experience.duration}</span></div>
+            <span class='exp-location'><i class="fa fa-map-marker location-icon" aria-hidden="true"></i>&nbsp;&nbsp;${experience.location} </span>
             <div class="descr">
               ${experienceDescriptionList}
             </div>
