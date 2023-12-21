@@ -1,9 +1,36 @@
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@font-face {
+  font-family: "Agustina";
+  src: url(../theme/fonts/agustina.otf);
+}
+#loader {
+  position: fixed;
+  z-index: 100;
+  /* background: var(--bg) url(../images/title/logo_loader_animation.gif) no-repeat center; */
+  width: 100%;
+  height: 100vh;
+  background-size: 20%;
+}
+
+.watermark {
+  position: fixed;
+  top: 6%;
+  left: 3%;
+  /* opacity: 0.5; */
+  z-index: 99;
+  color: white;
+  text-align: center;
+}
+
+.watermark-inner {
+  color: white;
+  opacity: 0.4;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.watermark-txt {
+  font-family: "Agustina";
 }
 
 .wrapper {
