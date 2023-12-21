@@ -14,6 +14,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   scrollToTop();
   aosInit();
+  setupLoader();
 
   window.onscroll = function () {
     $(document).on("scroll", onScroll);
@@ -99,4 +100,16 @@ function onScroll(event) {
 
 function downloadResume() {
   window.open("images/Akshay_Chavan_Resume - v4.pdf", "_blank");
+}
+
+function setupLoader() {
+  const loader = document.getElementById("loader");
+  const bgCircle = document.getElementById("bg-circle");
+  setTimeout(() => {
+    loader.style.display = "none";
+    bgCircle.classList.remove("grad-circle");
+    setTimeout(() => {
+      bgCircle.classList.add("grad-circle");
+    }, 100);
+  }, 8000);
 }
