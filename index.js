@@ -111,5 +111,5 @@ function setupLoader() {
     setTimeout(() => {
       bgCircle.classList.add("grad-circle");
     }, 100);
-  }, 8000);
+  }, 5000);
 }

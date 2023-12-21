@@ -459,7 +459,7 @@ let data = {
       labels: [
         {
           title: "GitHub",
-          link: "https://github.com/mhmzdev/awesome_snackbar_content",
+          link: "https://github.com/akshaychavan7/FlashX",
         },
         {
           title: "App",
