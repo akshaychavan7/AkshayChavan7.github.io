@@ -357,7 +357,7 @@ let data = {
     {
       org: "The Sparks Foundation",
       position: "Mobile Application Development Intern",
-      duration: "November 2021 - December 2022",
+      duration: "November 2021 - December 2021",
       location: "Singapore",
       technologies: [
         "Java",
@@ -507,6 +507,70 @@ let data = {
           link: "https://github.com/akshaychavan7",
         },
       ],
+    },
+  ],
+  certifications: [
+    {
+      title: "Professional Cloud Developer",
+      image:
+        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/57358804",
+      issued_by: "Google",
+      credential:
+        "https://www.credential.net/877e19f6-1dde-4f97-94cd-dc0ac501f76d",
+    },
+    {
+      title: "Associate Cloud Engineer",
+      image:
+        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/52362553",
+      issued_by: "Google",
+      credential:
+        "https://www.credential.net/bcfe0ac1-683b-42b3-843a-d099bb95fcd4?key=cd3a854a3c5eb0a71ad75578d601392748b367667cb7f5cd519deac34f4d63b0",
+    },
+    {
+      title: "Cloud Digital Leader",
+      image:
+        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/52366916",
+      issued_by: "Google",
+      credential:
+        "https://www.credential.net/87fd95c1-9730-4b61-a714-68c0600b1c6b?key=dda00fc941800897b4e58590b7d104d694827bacab378dc3b6d319fde76326ab",
+    },
+    {
+      title: "GCP Associate Cloud Engineer",
+      image:
+        "https://udemy-certificate.s3.amazonaws.com/image/UC-3006cbe6-2c5a-487a-8d7f-ffa9a3d0bdaf.jpg?v=1652943599000",
+      issued_by: "Udemy",
+      credential:
+        "https://www.udemy.com/certificate/UC-3006cbe6-2c5a-487a-8d7f-ffa9a3d0bdaf/",
+    },
+    {
+      title: "OCI Foundations Certified Associate",
+      image: "images/certifications/Oracle_Cloud_Infrastructure.jpg",
+      issued_by: "Oracle",
+      credential:
+        "https://www.credly.com/badges/177e2e49-8a1a-4fdb-8d5d-efb9db3e5f4a/public_url",
+    },
+    {
+      title: "Python Code Challenges",
+      image:
+        "https://media.licdn.com/dms/image/D4E22AQHYfnQiQjFKCw/feedshare-shrink_1280/0/1703205691619?e=2147483647&v=beta&t=hNPRKOBLj92APpEeVKNAPA69QB7A8I5vVwW5KRAKBn8",
+      issued_by: "LinkedIn",
+      credential:
+        "https://www.linkedin.com/learning/certificates/8a6f0875f7aa1f5927c41a93bd9c1c16be97b3d7224f24a23ff14f0b95462969",
+    },
+    {
+      title: "Python for Data Science",
+      image:
+        "https://media.licdn.com/dms/image/D4E22AQF_1JzRzNZcvQ/feedshare-shrink_1280/0/1703205835323?e=2147483647&v=beta&t=tL51OfUbD5OF8hwIOLw2kYyOf2LDDpUs_PI0e3q-jrU",
+      issued_by: "LinkedIn",
+      credential:
+        "https://www.linkedin.com/learning/certificates/eeb0d0ad5d785480ddf18acc568f797cd301b7c3d0f81593f032a40a2fb76cfa",
+    },
+    {
+      title: "Cloud Computing",
+      image: "images/certifications/cloud_computing_iit_kharagpur.jpg",
+      issued_by: "IIT, Kharagpur",
+      credential:
+        "https://archive.nptel.ac.in/noc/Ecertificate/?q=noc17-cs23/NPTEL17CS23S1580001171003235.jpg",
     },
   ],
 };
