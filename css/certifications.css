@@ -1,0 +1,136 @@
+.certifications-div {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-dark);
+}
+
+#certification-subtitle {
+  color: white;
+  width: 400px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.certification-card {
+  margin: 1em;
+  background-color: var(--bg);
+  /* height: 300px; */
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0px 13px 10px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.c-type {
+  margin: 0.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: var(--bg-dark);
+  position: absolute;
+  color: var(--color-primary);
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  transition: 0.5s;
+}
+
+.c-image-bg {
+  border-radius: 8px;
+  max-width: 100%;
+  aspect-ratio: 10/6;
+}
+
+.c-title {
+  color: white;
+  padding-top: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 16px;
+}
+
+.c-labels {
+  padding-left: 3%;
+  display: flex;
+  background: transparent;
+}
+
+.c-label-icon {
+  background-color: transparent;
+  color: var(--color-primary);
+  font-size: 12px;
+  transition: 0.5s;
+}
+
+.certification-logo {
+  background: transparent;
+}
+
+.c-label {
+  margin-bottom: 2%;
+  margin-right: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: var(--bg-dark);
+  transition: 0.5s;
+}
+
+.c-label:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 0px 10px var(--color-primary);
+}
+
+.c-label:hover .c-label-icon {
+  color: var(--bg-dark);
+}
+
+.c-label-text {
+  margin-left: 15%;
+  background-color: transparent;
+  color: var(--color-primary);
+  transition: 0.5s;
+  text-wrap: nowrap;
+}
+
+.credentials-btn {
+  background-color: transparent;
+  color: var(--color-primary);
+  transition: 0.5s;
+  text-wrap: nowrap;
+}
+
+.c-label:hover .c-label-text .credentials-btn {
+  color: var(--bg-dark);
+}
+
+.certification-card:hover {
+  box-shadow: 0px 5px 10px var(--color-primary);
+}
+
+.check {
+  color: green;
+  background: transparent;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
