@@ -1,3 +1,7 @@
+#achievements-row {
+  justify-content: center;
+}
+
 .achievements-div {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -39,7 +43,8 @@
 
 .achievement-title {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
+  color: var(--color-primary);
   display: inline;
 }
 .achievement-date {
@@ -75,6 +80,54 @@
   transition: 0.5s;
   margin-top: 3%;
   border: 1px solid #3e3e3e;
+}
+
+.cutoff-text {
+  --max-lines: 3;
+  --line-height: 1.4;
+  height: calc(1em * var(--line-height) * var(--max-lines));
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+
+.cutoff-text:has(+ .expand-btn:not(:checked)):before {
+  content: "";
+  position: absolute;
+  height: calc(1em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, var(--bg));
+}
+
+.expand-btn {
+  appearance: none;
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 600;
+  /* border: 1px solid lightgray; */
+  padding: 0.5em;
+  /* border-radius: 0.25em; */
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.expand-btn:hover {
+  /* background-color: #ccc; */
+}
+
+.expand-btn::before {
+  content: "Read more";
+}
+
+.expand-btn:checked:before {
+  content: "Collapse";
+}
+
+.cutoff-text:has(+ .expand-btn:checked) {
+  height: auto;
 }
 
 /* ------------------------------------------------- */
