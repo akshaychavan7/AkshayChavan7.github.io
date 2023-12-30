@@ -584,7 +584,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "http://nptel.ac.in/noc/E_Certificate/noc17-cs23/NPTEL17CS23S1580001171003235.jpg",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -646,7 +646,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1McxNxNHFV5VzziXV8Mldmv4qJ9UlGo8L/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -659,7 +659,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1N4R_CnGDApBSZwvq2ooQaxa7_d3d75fz/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -672,7 +672,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1N4R_CnGDApBSZwvq2ooQaxa7_d3d75fz/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -685,7 +685,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1N3n4LbdMP582J6ErmF6DbSETmg-N1YL7/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -698,7 +698,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1UA6mfOL9RThA-N-YiQAgu3Fg0SXvREG6/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -711,7 +711,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/15l1XFYWAz1ssphAhFDRqBtpGVUDaq4Bd/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -724,7 +724,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1TAPh_s06JdqCKnG_po3DM_UGJ2QSug4o/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -737,7 +737,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1VtOyPhFBItK0WP3MKWrmMy-kJpVbJXEN/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -750,7 +750,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1t01DJf9tZOr3pbKo0PB6Rt5EDQC67kAb/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -763,7 +763,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1yWY5_RY-8FeHiFn12V4Pshjs_ITxwB7t/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -776,7 +776,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/18QQkqcyBm1K0y0vQxL8Gsdc0CkV13RTb/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -789,7 +789,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1cNaR03QcdKjGMH9mCV8jYN4L4skSzwYS/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -802,7 +802,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/16kddUpaqg6Y-l4e3-md-JPFpRMyCKxcT/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -815,7 +815,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1J53JP0hQ6V1dfrj-aeEiClkIxF4sreY3/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -828,7 +828,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1MVUq3RY_942PZDWdGpGXRMg5X9Cjmv37/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -841,7 +841,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1N3n4LbdMP582J6ErmF6DbSETmg-N1YL7/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -854,7 +854,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1KhJjuCMqu6Z4wlD_JjAQKfCjBRKnrj4-/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -867,7 +867,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1nXXEGv0Oqz8Zli6zwxsCrCFJOP9uHh-p/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -880,7 +880,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/15B9Y5B7B8m1tcluQF_x_kKXCEHHERc9E/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -893,7 +893,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1EDRa_B9sFvECxm-Y5NIjMO0iV_TMkfwF/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -906,7 +906,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1OdGJw4-l2mq2kjWFK6LDTnrSs0ag7vT8/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -919,7 +919,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1T5r1Ei-Ct_kX9IsMgJvtEJa7NxNNdLp4/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -932,7 +932,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1-WCCt1eb4lvFTPsMWvcfSV4p6sEUXbWl/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -945,7 +945,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1bDI9Li77v_Of4OvIzzynqWCWd7QV4z4u/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -958,7 +958,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1VDlWGuOqmOEQOH6SOFVcWr7CQFh3n_oQ/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -971,7 +971,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1EZhgBDI9KVbcUkvzLZqn2C2YUpahx93R/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -984,7 +984,7 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1-sVvo2eYF6GhBz81Mdu2OmqzSyrZ073b/view?usp=sharing",
-          icon: "images/certifications/icons/check.png",
+          icon: "images/certifications/icons/view.png",
         },
       ],
     },
