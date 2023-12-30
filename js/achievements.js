@@ -35,9 +35,10 @@ function mapAchievementsData() {
                 </div>
                 <div id="event-date" class="achievement-date">${achievement.date}</div>
               </div>
-              <div id="description" class="achievement-description">
+              <div id="description" class="achievement-description cutoff-text">
                ${achievement.description}
-              </div>
+               </div>
+               <input class="expand-btn" type="checkbox" />
               <div id="tags" class="achievement-tags">
               ${labelsHTML}
               </div>
