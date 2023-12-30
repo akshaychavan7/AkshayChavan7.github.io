@@ -280,6 +280,7 @@ let data = {
         "Engineered an automated localization process, eradicating the need for manual intervention, resulting in a 100% reduction in errors and a significant reduction in the turnaround time.",
         "Flourished in an Agile environment, executing tasks within dynamic sprints and collaborating within diverse team setups, such as Squads.",
         "Contributed significantly to expanding the developer team by actively participating in the interviewing process and offering valuable support.",
+        `Secured first place in the PriceLabs hackathon with the project "TicketMinder," where we created an innovative Ticket Answering System utilizing historical data from the PriceLabs CRM system. Leveraging chatGPT's generative AI capabilities, we optimized data retrieval for user queries, resulting in a highly relevant and efficient system. Additionally, developed a user-friendly full-stack web application to seamlessly integrate the tool into PriceLabs' work environment, contributing to its ongoing success.`,
       ],
       accentColor: "#bb86fc",
     },
@@ -571,6 +572,421 @@ let data = {
       issued_by: "IIT, Kharagpur",
       credential:
         "https://archive.nptel.ac.in/noc/Ecertificate/?q=noc17-cs23/NPTEL17CS23S1580001171003235.jpg",
+    },
+  ],
+  achievements: [
+    {
+      title: "National Topper - AIR 5",
+      date: "October 2017",
+      description:
+        "Recognized as the All India Topper (AIR-5) in the Cloud Computing course conducted by Indian Institute of Technology(IIT), Kharagpur under NPTEL.",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "http://nptel.ac.in/noc/E_Certificate/noc17-cs23/NPTEL17CS23S1580001171003235.jpg",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Winner of PriceLabs Hackathon 2023",
+      date: "August 2023",
+      description:
+        "Secured first place in the PriceLabs hackathon with the project 'TicketMinder.' Leveraged chatGPT's generative AI capabilities to optimize data retrieval for user queries, resulting in a highly relevant and efficient Ticket Answering System. Developed a user-friendly full-stack web application to seamlessly integrate the tool into PriceLabs' work environment, contributing to its ongoing success.",
+      labels: [
+        {
+          tag: "View",
+          link: "https://drive.google.com/file/d/1MTc0MK8khZWEVa5rnroOj6g8tTnHaKxs/view?usp=sharing",
+          icon: "images/certifications/icons/view.png",
+        },
+      ],
+    },
+    {
+      title: "Event Head - Source Code",
+      description:
+        "Led as the Event Head for the esteemed 'Source Code' event, a nationally recognized coding competition hosted by K. K. Wagh Institute of Engineering Education & Research as part of the technical symposium 'Equinox-2k18'.",
+      date: "March 2018",
+      labels: [
+        {
+          tag: "Event Head",
+          link: "",
+          icon: "",
+        },
+        {
+          tag: "Leadership",
+          link: "",
+          icon: "",
+        },
+      ],
+    },
+    {
+      title: "Secretary - ACTS Committee",
+      description:
+        "Elected and served as the Secretary of the Association of Computer Science Students (ACTS) Committee in July 2015. Orchestrated and coordinated a variety of departmental events and activities, ensuring their seamless execution and contributing to the overall success of the Computer Technology Department.",
+      date: "July 2015",
+      labels: [
+        {
+          tag: "Leadership",
+          link: "",
+          icon: "",
+        },
+        {
+          tag: "Management",
+          link: "",
+          icon: "",
+        },
+      ],
+    },
+    {
+      title: "Winner - Ignite'19 Coding Competition",
+      date: "September 2019",
+      description:
+        "Secured the 1st prize in the Ignite'19 coding competition, a prestigious state-level programming event organized by the Department of Information Technology at MET BKC College.",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1McxNxNHFV5VzziXV8Mldmv4qJ9UlGo8L/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Winner - Ignite'19 Placement Practices Competition",
+      date: "September 2019",
+      description:
+        "Secured the first prize in the Ignite'19 Placement Practices competition, an interview-based placement practice event organized by the Department of Computer Engineering at MET BKC College of Engineering.",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1N4R_CnGDApBSZwvq2ooQaxa7_d3d75fz/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Winner - Ignite'19 Placement Practices Competition",
+      date: "September 2019",
+      description:
+        "Secured the first prize in the Ignite'19 Placement Practices competition, an interview-based placement practice event organized by the Department of Computer Engineering at MET BKC College of Engineering.",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1N4R_CnGDApBSZwvq2ooQaxa7_d3d75fz/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Metastorm'19 - Programate 2nd Prize",
+      description:
+        "Secured the 2nd Prize in Programate, a state-level programming competition event organized by the Department of Computer Engineering at MET BKC College.",
+      date: "September 2019",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1N3n4LbdMP582J6ErmF6DbSETmg-N1YL7/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "MVP Kshitij'19 - CodeSprint 2nd Prize",
+      description:
+        "Achieved the 2nd Prize in MVP Kshitij - CodeSprint, a state-level programming competition event hosted by the Department of Computer Engineering at KBT College of Engineering.",
+      date: "February 2019",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1UA6mfOL9RThA-N-YiQAgu3Fg0SXvREG6/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Metastorm'18 - BERFI 2nd Prize",
+      description:
+        "Earned the 2nd Prize in Metastorm-BERFI, an Interview-based placement practice competition conducted by the Department of Computer Engineering at MET BKC College of Engineering.",
+      date: "September 2018",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/15l1XFYWAz1ssphAhFDRqBtpGVUDaq4Bd/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Metastorm'18 - Profused 3rd Prize",
+      description:
+        "Secured the 3rd Prize in Profused, a state-level programming competition organized by the Department of Computer Engineering at MET BKC College of Engineering.",
+      date: "September 2018",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1TAPh_s06JdqCKnG_po3DM_UGJ2QSug4o/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Student of the Week",
+      description:
+        "Recognized as 'Student of the Week' by Sakal News in June 2018, commended for outstanding academic and extracurricular achievements. A full-page article highlighting academic excellence and overcoming challenges was published.",
+      date: "June 2018",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1VtOyPhFBItK0WP3MKWrmMy-kJpVbJXEN/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "CSI Project Competition - 3rd Prize",
+      description:
+        "Awarded 3rd Prize in the IoT Mini Project Competition conducted by the Department of Computer Engineering at K. K. Wagh Institute of Engineering in collaboration with the Computer Society of India (CSI).",
+      date: "April 2018",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1t01DJf9tZOr3pbKo0PB6Rt5EDQC67kAb/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Ignitra'18 - 1st Prize",
+      description:
+        "Attained 1st Prize in Ignitra, a state-level programming competition organized by the Department of Computer Engineering at R H Sapat College of Engineering.",
+      date: "February 2018",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1yWY5_RY-8FeHiFn12V4Pshjs_ITxwB7t/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Maverick'18 - 2nd Prize",
+      description:
+        "Achieved 2nd Prize in Maverick, a quiz competition organized by the MBA department at K. K. Wagh Institute of Engineering.",
+      date: "February 2018",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/18QQkqcyBm1K0y0vQxL8Gsdc0CkV13RTb/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Pro-JIT'18 - 3rd Prize",
+      description:
+        "Secured the 3rd Prize in ProJIT, a national-level programming competition organized by the Department of Computer Engineering at JIT College of Engineering.",
+      date: "February 2018",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1cNaR03QcdKjGMH9mCV8jYN4L4skSzwYS/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "METECH'17 - 1st Prize",
+      description:
+        "Achieved 1st Prize in METECH, a state-level paper presentation competition organized by the Department of Mechanical Engineering at MET BKC College of Engineering.",
+      date: "September 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/16kddUpaqg6Y-l4e3-md-JPFpRMyCKxcT/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "METeorite'17 - 1st Prize",
+      description:
+        "Secured 1st Prize in METeorite, a state-level paper presentation competition held by the Department of Electronics Engineering at MET BKC College of Engineering.",
+      date: "September 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1J53JP0hQ6V1dfrj-aeEiClkIxF4sreY3/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Metastorm'17 - Programate 1st Prize",
+      description:
+        "Secured 1st Prize in Programate, a state-level programming competition organized by the Department of Computer Engineering at MET BKC College.",
+      date: "September 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1MVUq3RY_942PZDWdGpGXRMg5X9Cjmv37/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Metastorm'19 - Profused 2nd Prize",
+      description:
+        "Achieved 2nd Prize in Profused, a state-level programming competition organized by the Department of Computer Engineering at MET BKC College of Engineering.",
+      date: "September 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1N3n4LbdMP582J6ErmF6DbSETmg-N1YL7/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Departmental Topper",
+      description:
+        "Awarded for being the 3rd topper in the second year of computer engineering at K. K. Wagh Institute of Engineering Education & Research.",
+      date: "July 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1KhJjuCMqu6Z4wlD_JjAQKfCjBRKnrj4-/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Telekinesis'17 - 5th Prize",
+      description:
+        "Secured the 5th Prize in Telekinesis, a state-level programming competition organized by the Department of Electronics & Telecommunications Engineering at K. K. Wagh Institute of Engineering.",
+      date: "March 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1nXXEGv0Oqz8Zli6zwxsCrCFJOP9uHh-p/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Electrosparx'17 - 3rd Prize",
+      description:
+        "Achieved 3rd Prize in Electrosparx, a Quiz Competition organized by the Department of Electrical Engineering at R. H. Sapat College of Engineering.",
+      date: "February 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/15B9Y5B7B8m1tcluQF_x_kKXCEHHERc9E/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Ignitra'17 - 2nd Prize",
+      description:
+        "Secured 2nd Prize in Ignitra, a state-level programming competition organized by the Department of Computer Engineering at R. H. Sapat College of Engineering.",
+      date: "February 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1EDRa_B9sFvECxm-Y5NIjMO0iV_TMkfwF/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Pro-JIT'17 - 2nd Prize",
+      description:
+        "Achieved 2nd Prize in ProJIT, a national-level programming competition organized by the Department of Computer Engineering at JIT College of Engineering.",
+      date: "February 2017",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1OdGJw4-l2mq2kjWFK6LDTnrSs0ag7vT8/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Departmental Topper",
+      description:
+        "Awarded for being the 2nd Departmental Topper in the final year of Diploma in Computer Technology at K. K. Wagh Polytechnic.",
+      date: "June 2016",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1T5r1Ei-Ct_kX9IsMgJvtEJa7NxNNdLp4/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Prayukti'16 - 1st Prize",
+      description:
+        "Achieved 1st Prize in Prayukti, a state-level project competition organized by the Department of Information Technology at NDMVP's RSM Polytechnic.",
+      date: "March 2016",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1-WCCt1eb4lvFTPsMWvcfSV4p6sEUXbWl/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Pro-Utsav'16 - 1st Prize",
+      description:
+        "Secured 1st Prize in Pro-Utsav, a national-level project competition, and the most prestigious event organized by K. K. Wagh Polytechnic.",
+      date: "February 2016",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1bDI9Li77v_Of4OvIzzynqWCWd7QV4z4u/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "SAIT'15 - 2nd Prize",
+      description:
+        "Awarded 2nd Prize in SAIT, a paper presentation competition organized by the Department of Information Technology at K. K. Wagh Polytechnic.",
+      date: "September 2015",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1VDlWGuOqmOEQOH6SOFVcWr7CQFh3n_oQ/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Techmanthan'15 - 1st Prize",
+      description:
+        "Achieved 1st Prize in Techmanthan, a paper presentation competition organized by the Department of Computer Technology at K. K. Wagh Polytechnic.",
+      date: "March 2015",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1EZhgBDI9KVbcUkvzLZqn2C2YUpahx93R/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
+    },
+    {
+      title: "Departmental Topper",
+      description:
+        "Awarded for being the Third Departmental Topper of the Second Year of Diploma in Computer Technology at K. K. Wagh Polytechnic.",
+      date: "December 2014",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1-sVvo2eYF6GhBz81Mdu2OmqzSyrZ073b/view?usp=sharing",
+          icon: "images/certifications/icons/check.png",
+        },
+      ],
     },
   ],
 };
