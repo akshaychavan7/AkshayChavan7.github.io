@@ -610,12 +610,12 @@ let data = {
         {
           tag: "Event Head",
           link: "",
-          icon: "",
+          icon: "images/certifications/icons/leader.png",
         },
         {
-          tag: "Leadership",
+          tag: "Management",
           link: "",
-          icon: "",
+          icon: "images/certifications/icons/manage.png",
         },
       ],
     },
@@ -628,12 +628,12 @@ let data = {
         {
           tag: "Leadership",
           link: "",
-          icon: "",
+          icon: "images/certifications/icons/leader.png",
         },
         {
           tag: "Management",
           link: "",
-          icon: "",
+          icon: "images/certifications/icons/manage.png",
         },
       ],
     },
