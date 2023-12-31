@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
   scrollToTop();
   aosInit();
   setupLoader();
+  getVisitorsCount();
 
   window.onscroll = function () {
     $(document).on("scroll", onScroll);
@@ -48,6 +49,66 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   };
 });
+
+// get counts
+// https://script.google.com/macros/s/AKfycby4FMdRgqHIUllxL1Mp8V-v07rjHW7gEX_2BgQw2b8NwZc6klvsLll_PP0mjKLOY4j7/exec
+// set counts
+// https://script.google.com/macros/s/AKfycbyhlPqoatdrK_al85GTjraRpt5BYQi4ZnoY8xU8Skg7nBVy0tLaqlZPnJTaQjM2bUwy/exec?totalCount=20&uniqueCount=5&resumeDownloadCount=1
+
+function getVisitorsCount() {
+  const url =
+    "https://script.google.com/macros/s/AKfycbzdYjCNOUhUo2lORHPhrocXh_xACWqfXO-1ehzV0Eo53MmnWUZVKZhlaKzIgRLsTftT/exec";
+  var requestOptions = {
+    method: "GET",
+    redirect: "follow",
+  };
+
+  fetch(url, requestOptions)
+    .then((response) => response.text())
+    .then((result) => {
+      localStorage.setItem("counts", result);
+      countsObj = JSON.parse(result);
+      document.getElementById("visitor-count").innerHTML =
+        countsObj["Total Count"] + 1;
+
+      let uniqueCount = countsObj["Unique Count"];
+      let resumeDownloadCount = countsObj["Resume Download Count"];
+      if (localStorage.getItem("previouslyVisited") === null) {
+        uniqueCount += 1;
+        localStorage.setItem("previouslyVisited", true);
+      }
+
+      let totalCount = countsObj["Total Count"] + 1;
+      localStorage.setItem(
+        "counts",
+        `{"Total Count":${totalCount},"Unique Count":${uniqueCount},"Resume Download Count":${resumeDownloadCount}}`
+      );
+      // set new values for all the counts
+      setUpdatedCounts(totalCount, uniqueCount, resumeDownloadCount);
+
+      console.log(
+        "Total Visitors Counts:",
+        countsObj["Total Count"] + 1,
+        "\nUnique Visitors Count:",
+        uniqueCount,
+        "\nResume Downloads Count:",
+        resumeDownloadCount
+      );
+    })
+    .catch((error) => console.log("error", error));
+}
+
+function setUpdatedCounts(totalCount, uniqueCount, resumeDownloadCount) {
+  var requestOptions = {
+    method: "GET",
+    redirect: "follow",
+  };
+  const url = `https://script.google.com/macros/s/AKfycbyhlPqoatdrK_al85GTjraRpt5BYQi4ZnoY8xU8Skg7nBVy0tLaqlZPnJTaQjM2bUwy/exec?totalCount=${totalCount}&uniqueCount=${uniqueCount}&resumeDownloadCount=${resumeDownloadCount}`;
+  fetch(url, requestOptions)
+    .then((response) => response.text())
+    .then((result) => console.log("Successfully updated counts!", result))
+    .catch((error) => console.log("error", error));
+}
 
 function scrollToTop() {
   // scroll to top
@@ -99,6 +160,12 @@ function onScroll(event) {
 }
 
 function downloadResume() {
+  const countsObj = JSON.parse(localStorage.getItem("counts"));
+  setUpdatedCounts(
+    countsObj["Total Count"],
+    countsObj["Unique Count"],
+    countsObj["Resume Download Count"] + 1
+  );
   window.open("images/Akshay_Chavan_Resume - v4.pdf", "_blank");
 }
 
@@ -111,5 +178,5 @@ function setupLoader() {
     setTimeout(() => {
       bgCircle.classList.add("grad-circle");
     }, 100);
-  }, 3000);
+  }, 0);
 }

@@ -9,9 +9,10 @@ let data = {
                     Join me on this journey as I share my projects, insights, and experiences, celebrating the beauty of technology and its impact on our lives. Let's connect, innovate, and create together!`,
   actionVerbs: [
     "a Passionate Developer!",
-    "Tech Enthusiast!",
     "Problem Solver!",
-    "Curious Geek!",
+    "Tech Enthusiast!",
+    "Minimalist!",
+    "Avid Traveller!",
     "and yes, a Forever Learner!",
   ],
   socials: [
@@ -602,6 +603,45 @@ let data = {
       ],
     },
     {
+      title: "Winner - Ignite'19 Coding Competition",
+      date: "September 2019",
+      description:
+        "Secured the 1st prize in the Ignite'19 coding competition, a prestigious state-level programming event organized by the Department of Information Technology at MET BKC College.",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1McxNxNHFV5VzziXV8Mldmv4qJ9UlGo8L/view?usp=sharing",
+          icon: "images/certifications/icons/view.png",
+        },
+      ],
+    },
+    {
+      title: "Pro-Utsav'16 - 1st Prize",
+      description:
+        "Secured 1st Prize in Pro-Utsav, a national-level project competition, and the most prestigious event organized by K. K. Wagh Polytechnic.",
+      date: "February 2016",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1bDI9Li77v_Of4OvIzzynqWCWd7QV4z4u/view?usp=sharing",
+          icon: "images/certifications/icons/view.png",
+        },
+      ],
+    },
+    {
+      title: "Ignitra'18 - 1st Prize",
+      description:
+        "Attained 1st Prize in Ignitra, a state-level programming competition organized by the Department of Computer Engineering at R H Sapat College of Engineering.",
+      date: "February 2018",
+      labels: [
+        {
+          tag: "View Credentials",
+          link: "https://drive.google.com/file/d/1yWY5_RY-8FeHiFn12V4Pshjs_ITxwB7t/view?usp=sharing",
+          icon: "images/certifications/icons/view.png",
+        },
+      ],
+    },
+    {
       title: "Event Head - Source Code",
       description:
         "Led as the Event Head for the esteemed 'Source Code' event, a nationally recognized coding competition hosted by K. K. Wagh Institute of Engineering Education & Research as part of the technical symposium 'Equinox-2k18'.",
@@ -616,50 +656,6 @@ let data = {
           tag: "Management",
           link: "",
           icon: "images/certifications/icons/manage.png",
-        },
-      ],
-    },
-    {
-      title: "Secretary - ACTS Committee",
-      description:
-        "Elected and served as the Secretary of the Association of Computer Science Students (ACTS) Committee in July 2015. Orchestrated and coordinated a variety of departmental events and activities, ensuring their seamless execution and contributing to the overall success of the Computer Technology Department.",
-      date: "July 2015",
-      labels: [
-        {
-          tag: "Leadership",
-          link: "",
-          icon: "images/certifications/icons/leader.png",
-        },
-        {
-          tag: "Management",
-          link: "",
-          icon: "images/certifications/icons/manage.png",
-        },
-      ],
-    },
-    {
-      title: "Winner - Ignite'19 Coding Competition",
-      date: "September 2019",
-      description:
-        "Secured the 1st prize in the Ignite'19 coding competition, a prestigious state-level programming event organized by the Department of Information Technology at MET BKC College.",
-      labels: [
-        {
-          tag: "View Credentials",
-          link: "https://drive.google.com/file/d/1McxNxNHFV5VzziXV8Mldmv4qJ9UlGo8L/view?usp=sharing",
-          icon: "images/certifications/icons/view.png",
-        },
-      ],
-    },
-    {
-      title: "Winner - Ignite'19 Placement Practices Competition",
-      date: "September 2019",
-      description:
-        "Secured the first prize in the Ignite'19 Placement Practices competition, an interview-based placement practice event organized by the Department of Computer Engineering at MET BKC College of Engineering.",
-      labels: [
-        {
-          tag: "View Credentials",
-          link: "https://drive.google.com/file/d/1N4R_CnGDApBSZwvq2ooQaxa7_d3d75fz/view?usp=sharing",
-          icon: "images/certifications/icons/view.png",
         },
       ],
     },
@@ -729,6 +725,24 @@ let data = {
       ],
     },
     {
+      title: "Secretary - ACTS Committee",
+      description:
+        "Elected and served as the Secretary of the Association of Computer Science Students (ACTS) Committee in July 2015. Orchestrated and coordinated a variety of departmental events and activities, ensuring their seamless execution and contributing to the overall success of the Computer Technology Department.",
+      date: "July 2015",
+      labels: [
+        {
+          tag: "Leadership",
+          link: "",
+          icon: "images/certifications/icons/leader.png",
+        },
+        {
+          tag: "Management",
+          link: "",
+          icon: "images/certifications/icons/manage.png",
+        },
+      ],
+    },
+    {
       title: "Student of the Week",
       description:
         "Recognized as 'Student of the Week' by Sakal News in June 2018, commended for outstanding academic and extracurricular achievements. A full-page article highlighting academic excellence and overcoming challenges was published.",
@@ -738,6 +752,11 @@ let data = {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1VtOyPhFBItK0WP3MKWrmMy-kJpVbJXEN/view?usp=sharing",
           icon: "images/certifications/icons/view.png",
+        },
+        {
+          tag: "Honor",
+          link: "",
+          icon: "images/certifications/icons/badge.png",
         },
       ],
     },
@@ -750,19 +769,6 @@ let data = {
         {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1t01DJf9tZOr3pbKo0PB6Rt5EDQC67kAb/view?usp=sharing",
-          icon: "images/certifications/icons/view.png",
-        },
-      ],
-    },
-    {
-      title: "Ignitra'18 - 1st Prize",
-      description:
-        "Attained 1st Prize in Ignitra, a state-level programming competition organized by the Department of Computer Engineering at R H Sapat College of Engineering.",
-      date: "February 2018",
-      labels: [
-        {
-          tag: "View Credentials",
-          link: "https://drive.google.com/file/d/1yWY5_RY-8FeHiFn12V4Pshjs_ITxwB7t/view?usp=sharing",
           icon: "images/certifications/icons/view.png",
         },
       ],
@@ -856,6 +862,11 @@ let data = {
           link: "https://drive.google.com/file/d/1KhJjuCMqu6Z4wlD_JjAQKfCjBRKnrj4-/view?usp=sharing",
           icon: "images/certifications/icons/view.png",
         },
+        {
+          tag: "Dean's List",
+          link: "",
+          icon: "images/certifications/icons/scholar.png",
+        },
       ],
     },
     {
@@ -921,6 +932,11 @@ let data = {
           link: "https://drive.google.com/file/d/1T5r1Ei-Ct_kX9IsMgJvtEJa7NxNNdLp4/view?usp=sharing",
           icon: "images/certifications/icons/view.png",
         },
+        {
+          tag: "Dean's List",
+          link: "",
+          icon: "images/certifications/icons/scholar.png",
+        },
       ],
     },
     {
@@ -936,19 +952,7 @@ let data = {
         },
       ],
     },
-    {
-      title: "Pro-Utsav'16 - 1st Prize",
-      description:
-        "Secured 1st Prize in Pro-Utsav, a national-level project competition, and the most prestigious event organized by K. K. Wagh Polytechnic.",
-      date: "February 2016",
-      labels: [
-        {
-          tag: "View Credentials",
-          link: "https://drive.google.com/file/d/1bDI9Li77v_Of4OvIzzynqWCWd7QV4z4u/view?usp=sharing",
-          icon: "images/certifications/icons/view.png",
-        },
-      ],
-    },
+
     {
       title: "SAIT'15 - 2nd Prize",
       description:
@@ -985,6 +989,11 @@ let data = {
           tag: "View Credentials",
           link: "https://drive.google.com/file/d/1-sVvo2eYF6GhBz81Mdu2OmqzSyrZ073b/view?usp=sharing",
           icon: "images/certifications/icons/view.png",
+        },
+        {
+          tag: "Dean's List",
+          link: "",
+          icon: "images/certifications/icons/scholar.png",
         },
       ],
     },

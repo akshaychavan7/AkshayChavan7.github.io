@@ -32,6 +32,20 @@
   transition: 0.5s;
 }
 
+.contact-card:nth-child(1) {
+  margin-top: -12%;
+  width: 400px;
+  height: 80px;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: var(--bg-dark);
+  transition: 0.5s;
+}
+
 .contact-card:hover {
   text-decoration: none;
   box-shadow: 0px 0px 10px var(--color-primary);
