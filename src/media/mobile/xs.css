@@ -196,7 +196,7 @@
   }
 
   .contact-card {
-    width: 330px;
+    width: 330px !important;
   }
 
   #meet-btn {
