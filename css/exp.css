@@ -25,6 +25,7 @@
 }
 
 .exp-item {
+  color: white;
   display: flex;
   margin-bottom: 8px;
   font-size: 14px;
