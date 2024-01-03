@@ -86,14 +86,14 @@ function getVisitorsCount() {
       // set new values for all the counts
       setUpdatedCounts(totalCount, uniqueCount, resumeDownloadCount);
 
-      console.log(
-        "Total Visitors Counts:",
-        countsObj["Total Count"] + 1,
-        "\nUnique Visitors Count:",
-        uniqueCount,
-        "\nResume Downloads Count:",
-        resumeDownloadCount
-      );
+      // console.log(
+      //   "Total Visitors Counts:",
+      //   countsObj["Total Count"] + 1,
+      //   "\nUnique Visitors Count:",
+      //   uniqueCount,
+      //   "\nResume Downloads Count:",
+      //   resumeDownloadCount
+      // );
     })
     .catch((error) => console.log("error", error));
 }
@@ -106,7 +106,7 @@ function setUpdatedCounts(totalCount, uniqueCount, resumeDownloadCount) {
   const url = `https://script.google.com/macros/s/AKfycbyhlPqoatdrK_al85GTjraRpt5BYQi4ZnoY8xU8Skg7nBVy0tLaqlZPnJTaQjM2bUwy/exec?totalCount=${totalCount}&uniqueCount=${uniqueCount}&resumeDownloadCount=${resumeDownloadCount}`;
   fetch(url, requestOptions)
     .then((response) => response.text())
-    .then((result) => console.log("Successfully updated counts!", result))
+    .then((result) => {})
     .catch((error) => console.log("error", error));
 }
 
