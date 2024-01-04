@@ -48,9 +48,10 @@ nav .navbar-nav li a:hover {
   padding-left: 20px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
-  animation: pulse2 2s infinite;
+  /* animation: pulse2 2s infinite; */
   cursor: pointer;
   z-index: 1;
+  border: 1px solid #545454;
 }
 
 .show {
