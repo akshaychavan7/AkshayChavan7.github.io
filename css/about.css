@@ -71,6 +71,7 @@
   padding-right: 15px;
   background-color: var(--color-primary);
   transition: 0.5s;
+  animation: pulse2 2s infinite;
 }
 
 #download-btn:hover {
