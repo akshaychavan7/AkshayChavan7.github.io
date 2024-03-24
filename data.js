@@ -515,26 +515,26 @@ let data = {
     {
       title: "Professional Cloud Developer",
       image:
-        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/57358804",
+        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/97319690",
       issued_by: "Google",
       credential:
-        "https://www.credential.net/877e19f6-1dde-4f97-94cd-dc0ac501f76d",
+        "https://www.credential.net/680f4de7-50d8-4c29-a5f8-a5011f24fe05",
     },
     {
       title: "Associate Cloud Engineer",
       image:
-        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/52362553",
+        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/97319689",
       issued_by: "Google",
       credential:
-        "https://www.credential.net/bcfe0ac1-683b-42b3-843a-d099bb95fcd4?key=cd3a854a3c5eb0a71ad75578d601392748b367667cb7f5cd519deac34f4d63b0",
+        "https://www.credential.net/52655878-e41d-4a05-9f12-28cd5f1b79a8",
     },
     {
       title: "Cloud Digital Leader",
       image:
-        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/52366916",
+        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/97319688",
       issued_by: "Google",
       credential:
-        "https://www.credential.net/87fd95c1-9730-4b61-a714-68c0600b1c6b?key=dda00fc941800897b4e58590b7d104d694827bacab378dc3b6d319fde76326ab",
+        "https://www.credential.net/987606a5-3965-419c-989b-7a8b687abe57",
     },
     {
       title: "GCP Associate Cloud Engineer",
