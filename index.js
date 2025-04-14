@@ -166,7 +166,7 @@ function downloadResume() {
     countsObj["Unique Count"],
     countsObj["Resume Download Count"] + 1
   );
-  window.open("images/Akshay_Chavan_Resume - v4.pdf", "_blank");
+  window.open("images/Akshay_Chavan_Resume.pdf", "_blank");
 }
 
 function setupLoader() {

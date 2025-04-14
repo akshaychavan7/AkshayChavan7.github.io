@@ -4,9 +4,16 @@ let data = {
   role: "Full Stack Software Developer",
   portfolioLink: "https://akshaychavan7.github.io/",
   metaTitle: "Akshay Chavan - Developer Portfolio",
-  aboutMeText: `Welcome to my world of software development and exploration. I'm Akshay, a passionate Full-Stack Engineer and a CS Master's student at Northeastern University, Boston. With over 4 years of experience in the industry, I've had the opportunity to dive into a diverse range of tech stacks, from <span class="rich-letters">MEAN</span> and <span class="rich-letters">MERN</span> to <span class="rich-letters">Ruby on Rails</span>, and even <span class="rich-letters">Android app development</span> using Java. For me, coding is more than just a job – it's a thrilling puzzle-solving adventure that never gets old. I find joy in unraveling complex problem statements and crafting elegant solutions.<br/><br/>
-                    Beyond the realms of programming, I embrace an active and adventurous lifestyle. You'll often find me embarking on exhilarating treks, exploring new destinations, and engaging in various sports, ranging from the intensity of cricket and volleyball to the strategic depth of chess. <br/><br/>
-                    Join me on this journey as I share my projects, insights, and experiences, celebrating the beauty of technology and its impact on our lives. Let's connect, innovate, and create together!`,
+  aboutMeText: `I'm a passionate <span class="rich-letters">Full-Stack Software Engineer</span> and a <span class="rich-letters">Computer Science Master’s student at Northeastern University, Boston</span>, with 4+ years of experience crafting scalable, user-focused applications. My journey spans a diverse tech landscape — from <span class="rich-letters">MEAN</span> and <span class="rich-letters">MERN</span> stacks to <span class="rich-letters">Ruby on Rails</span>, <span class="rich-letters">Java</span>, and even <span class="rich-letters">Android app development</span>. Recently, I've been diving deeper into the world of <span class="rich-letters">AI engineering</span>, building intelligent systems that bridge the gap between human insight and machine learning.<br/><br/>
+
+Whether it's building sleek UIs, architecting backend systems, or deploying robust full-stack and AI-powered solutions, I love every part of the process.<br/><br/>
+
+To me, code is more than syntax — it’s a creative canvas where ideas come to life. Solving challenging problems, optimizing systems, or just refactoring messy logic into something beautiful? That’s my kind of fun.<br/><br/>
+
+Outside of tech, I’m just as adventurous. I recharge by <span class="rich-letters">hiking new trails</span>, <span class="rich-letters">traveling to offbeat places</span>, and getting competitive in <span class="rich-letters">cricket</span>, <span class="rich-letters">volleyball</span>, or a good game of <span class="rich-letters">chess</span>.<br/><br/>
+
+This site is my little corner of the internet — a place to showcase my work, share what I’m learning, and connect with like-minded people. <br/><span class="rich-letters">Let’s build, learn, and grow together.</span>
+`,
   actionVerbs: [
     "a Passionate Developer!",
     "Problem Solver!",
@@ -14,6 +21,7 @@ let data = {
     "Minimalist!",
     "Avid Traveller!",
     "and yes, a Forever Learner!",
+    
   ],
   socials: [
     {
@@ -25,9 +33,13 @@ let data = {
       value: "https://github.com/akshaychavan7",
     },
     {
-      icon: "fa-brands fa-m",
-      value: "https://medium.com/@akshaychavan7",
+      icon: "fa-solid fa-code",
+      value: "https://leetcode.com/u/akshaychavan7/",
     },
+    // {
+    //   icon: "fa-brands fa-m",
+    //   value: "https://medium.com/@akshaychavan7",
+    // },
     {
       icon: "fa-brands fa-instagram",
       value: "https://www.instagram.com/_akshaychavan_7/",
