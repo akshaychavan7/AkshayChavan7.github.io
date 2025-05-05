@@ -20,8 +20,7 @@ This site is my little corner of the internet — a place to showcase my work, s
     "Tech Enthusiast!",
     "Minimalist!",
     "Avid Traveller!",
-    "and yes, a Forever Learner!",
-    
+    "Team Lead!",
   ],
   socials: [
     {
@@ -268,6 +267,55 @@ This site is my little corner of the internet — a place to showcase my work, s
   ],
   experience: [
     {
+      org: "Northeastern University",
+      position: "Graduate Research Assistant",
+      duration: "January 2025 - May 2025",
+      location: "Boston, Massachusetts, United States",
+      technologies: [
+        "React.js",
+        "TypeScript",
+        "JavaScript",
+        "MongoDB",
+        "Node.js",
+        "QGIS",
+        "Git",
+        "OpenCV",
+        "TensorFlow",
+        "Machine Learning"
+      ],
+      details: [
+        "Conducted research on a Digital Humanities project, focusing on historical context and the visualization of degrading images from the late-1800s and early-1900s.",
+        "Developed machine learning models for image restoration and enhancement, analyzing the degradation of historical images from the late-1800s and early-1900s.",
+        "Utilized ArcGIS and QGIS for geospatial visualization, integrating AI-driven image segmentation to map and analyze historical socio-political contexts.",
+        "Leveraging NLP models to extract and summarize textual metadata from historical records, aiding in automated document classification and retrieval.",
+        "Built a full-stack web application using React, TypeScript, Node.js, Python (FastAPI), and MongoDB, providing an interactive platform for visualizing and analyzing historical images.",
+        "Developed an admin portal to manage historical datasets, user access, and data annotations, enabling efficient moderation and streamlined research collaboration.",
+      ],
+      accentColor: "#2a9d8f",
+    },
+    {
+      org: "Copart",
+      position: "Software Engineer Intern",
+      duration: "July 2024 - Dec 2024",
+      location: "Dallas, Texas, United States",
+      technologies: [
+        "React.js",
+        "Java",
+        "JavaScript",
+        "Git",
+        "Spinnaker",
+        "Python",
+        "OpenAI API"
+      ],
+      details: [
+        "Led Google Places integration for Copart US and UK while refactoring architecture to enhance scalability.",
+        "Developed and deployed the Advanced Charge Discrepancy application for Copart UK, streamlining financial reconciliation processes.",
+        "Released Vendor Setup and Management 2.0, modernizing interfaces and implementing key modules that improved workflow efficiency.",
+        "Created LogIT during the company hackathon, an AI-powered log analysis tool that reduced debugging time by 50% through automated parsing and solution suggestions."
+      ],
+      accentColor: "#3a86ff",
+    },
+    {
       org: "PriceLabs",
       position: "Fullstack Engineer",
       duration: "Oct 2022 - Sept 2023",
@@ -414,6 +462,62 @@ This site is my little corner of the internet — a place to showcase my work, s
     },
   ],
   projects: [
+    {
+      title: "StudyBuddy",
+      image: "images/projects/studybuddy.jpg",
+      type: "Open Source",
+      labels: [
+        {
+          title: "GitHub",
+          link: "https://github.com/akshaychavan7/StudyBuddyHackathon",
+        },
+        {
+          title: "Demo",
+          link: "https://youtu.be/CKKAcjH8LKw",
+        },
+      ],
+    },
+    {
+      title: "HireU",
+      image: "images/projects/HireU.png",
+      type: "Open Source",
+      labels: [
+        {
+          title: "GitHub",
+          link: "https://github.com/akshaychavan7/HireU",
+        },
+        {
+          title: "Demo",
+          link: "https://youtu.be/GbEafOn3eJY?si=VglwLvEtYunecekw",
+        },
+      ],
+    },
+    {
+      title: "PDF Sensei",
+      image: "images/projects/pdf_sensei.png",
+      type: "Open Source",
+      labels: [
+        {
+          title: "GitHub",
+          link: "https://github.com/akshaychavan7/PDF-SENSEI",
+        },
+        {
+          title: "Demo",
+          link: "https://youtu.be/0Q2D_QP9nps?si=QFjNAIJMP-OHrnbS",
+        },
+      ],
+    },
+    {
+      title: "useHookFormContextState",
+      image: "images/projects/useHookFormContextState.png",
+      type: "Open Source",
+      labels: [
+        {
+          title: "GitHub",
+          link: "https://www.npmjs.com/package/use-hook-form-context-state",
+        },
+      ],
+    },
     {
       title: "Portable Antivirus System",
       image: "images/projects/portable-antivirus-system.png",
@@ -588,6 +692,37 @@ This site is my little corner of the internet — a place to showcase my work, s
     },
   ],
   achievements: [
+    {
+      title: "Winner - SharkHack'25 Hackathon",
+      date: "April 2025",
+      description:
+        "Awarded to StudyBuddy, recognized for groundbreaking innovation, strong practicality, and an exceptional pitch. Our team won the highest honor, The Moonshot Venture Award, for developing StudyBuddy – an intelligent learning platform that transforms educational videos and documents into interactive study tools. Powered by AI, StudyBuddy enables students to instantly convert video lectures and PDFs into detailed notes, flashcards, and mind maps; interact with an AI-powered chatbot to clarify concepts and retain context; and navigate a user-friendly dashboard to manage personalized study materials. The project stood out for its practical application in modern education, impactful user experience, and future-ready potential to revolutionize self-learning.",
+      labels: [
+        {
+          tag: "View Project",
+          link: "https://github.com/akshaychavan7/StudyBuddyHackathon",
+          icon: "images/certifications/icons/view.png",
+        },
+        {
+          tag: "Demo",
+          link: "https://youtu.be/CKKAcjH8LKw",
+          icon: "images/certifications/icons/view.png",
+        },
+      ],
+    },
+    {
+      title: "Winner - BU Spark'25 Hackathon",
+      date: "March 2025",
+      description:
+        "Awarded first place at the Boston University Spark'25 Hackathon in the 'Best use of GenAI category' for innovative technical solution and exceptional presentation.",
+      labels: [
+        {
+          tag: "View Project",
+          link: "https://devpost.com/software/hireu",
+          icon: "images/certifications/icons/view.png",
+        },
+      ],
+    },
     {
       title: "National Topper - AIR 5",
       date: "October 2017",
