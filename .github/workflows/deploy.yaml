@@ -1,24 +1,32 @@
 name: Build and Deploy
-on: push
+on:
+  push:
+    branches:
+      - master  # or main, depending on your default branch
 
 jobs:
-    hosting:
-      name: Deploy Website
-      runs-on: ubuntu-latest
-      steps:
-        # Checkout Repository
-        - name: Checkout
-          uses: actions/checkout@v3
+  hosting:
+    name: Deploy Website
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Checkout Repository
+      - name: Checkout
+        uses: actions/checkout@v3
 
-        # Git configure
-        - name: Setup git configs
-          run: |
-            git checkout master
-            git config --global user.name "akshaychavan7"
-            git config --global user.email "akshaychavan.kkwedu@gmail.com"
+      # Git configure
+      - name: Setup git configs
+        run: |
+          git config --global user.name "akshaychavan7"
+          git config --global user.email "akshaychavan.kkwedu@gmail.com"
 
-        - name: Build and Deploy
-          uses: JamesIves/github-pages-deploy-action@v4
-          with:
-            branch: gh-pages # The branch the action should deploy to.
-            folder: src # The folder the action should deploy.
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          branch: gh-pages
+          folder: src
+          clean: true
+          clean-exclude: |
+            .git
+            .github
