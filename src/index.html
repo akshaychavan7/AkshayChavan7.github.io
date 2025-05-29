@@ -8,6 +8,17 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <!-- Resource hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="index.css" as="style" />
+    <link rel="preload" href="theme/core.css" as="style" />
+    <link rel="preload" href="js/index.js" as="script" />
+
     <!-- meta tags for link preview -->
     <meta property="og:title" content="Akshay Chavan - Developer Portfolio" />
     <meta property="og:url" content="https://akshaychavan7.github.io/" />
@@ -81,8 +92,6 @@
     />
 
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="dependencies/fonts/fonts.googleapis.com_css2_family=Montserrat_ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,300&display=swap.css"
       rel="stylesheet"
@@ -97,7 +106,25 @@
     />
 
     <!-- scripts -->
-    <script src="dependencies/jQuery/ajax.googleapis.com_ajax_libs_jquery_3.6.1_jquery.min.js"></script>
+    <script defer src="dependencies/jQuery/ajax.googleapis.com_ajax_libs_jquery_3.6.1_jquery.min.js"></script>
+    <script defer src="dependencies/bootstrap/cdn.jsdelivr.net_npm_bootstrap@4.0.0_dist_js_bootstrap.min.js"></script>
+    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script defer src="js/imageOptimization.js"></script>
+    <script defer src="js/index.js"></script>
+    <script>
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/js/serviceWorker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
   </head>
 
   <body>
