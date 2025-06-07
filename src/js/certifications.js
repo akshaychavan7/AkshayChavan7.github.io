@@ -36,6 +36,12 @@ function mapCertificationsData() {
     label.className = "c-label";
     var labelIcon = document.createElement("img");
     switch (issued_by) {
+      case "AWS":
+        labelIcon.src = "images/certifications/icons/aws.png";
+        break;
+      case "CodePath":
+        labelIcon.src = "images/certifications/icons/codepath.png";
+        break;
       case "Google":
         labelIcon.src = "images/certifications/icons/google.png";
         break;

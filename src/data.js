@@ -629,6 +629,30 @@ This site is my little corner of the internet — a place to showcase my work, s
   ],
   certifications: [
     {
+      title: "AWS Academy Graduate Cloud Architecting",
+      image:
+        "images/certifications/AWS_Academy_Cloud_Architecting.jpg",
+      issued_by: "AWS",
+      credential:
+        "https://www.credly.com/badges/a747fd3d-ff8a-4e71-886b-0366bbafa9fb/public_url",
+    },
+    {
+      title: "AWS Academy Graduate Cloud Foundations",
+      image:
+        "images/certifications/AWS_Academy_Cloud_Foundations.jpg",
+      issued_by: "AWS",
+      credential:
+        "https://www.credly.com/badges/5a957c1e-375a-4421-9c90-086de6865f06/public_url",
+    },
+    {
+      title: "CodePath - Technical Interview Prep(Advanced)",
+      image:
+        "images/certifications/CodePath_TIP102_Completion.jpg",
+      issued_by: "CodePath",
+      credential:
+        "",
+    },
+    {
       title: "Professional Cloud Developer",
       image:
         "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/97319690",
