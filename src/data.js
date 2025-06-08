@@ -15,12 +15,13 @@ Outside of tech, I’m just as adventurous. I recharge by <span class="rich-lett
 This site is my little corner of the internet — a place to showcase my work, share what I’m learning, and connect with like-minded people. <br/><span class="rich-letters">Let’s build, learn, and grow together.</span>
 `,
   actionVerbs: [
-    "a Passionate Developer!",
-    "Problem Solver!",
-    "Tech Enthusiast!",
-    "Minimalist!",
-    "Avid Traveller!",
+    "Full Stack Developer!",
+    "AI Engineer!",
     "Team Lead!",
+    "Problem Solver!",
+    "Frontend + Backend + Cloud + AI",
+    "Tech Enthusiast!",
+    "Traveller!",
   ],
   socials: [
     {
@@ -69,7 +70,7 @@ This site is my little corner of the internet — a place to showcase my work, s
     },
     {
       value: "26+",
-      "text-1": "Honors & Achievements",
+      "text-1": "Honors & Awards",
       "text-2": "Received",
     },
   ],
