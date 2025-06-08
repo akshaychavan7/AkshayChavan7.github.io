@@ -463,6 +463,21 @@ This site is my little corner of the internet — a place to showcase my work, s
   ],
   projects: [
     {
+      title: "Pass the Plate",
+      image: "images/projects/pass-the-plate.png",
+      type: "Open Source",
+      labels: [
+        {
+          title: "GitHub",
+          link: "https://github.com/akshaychavan7/pass-the-plate",
+        },
+        {
+          title: "Demo",
+          link: "https://youtu.be/ebbU9rhdrR0?si=b2Xb_m_s9gHhRyYn",
+        },
+      ],
+    },
+    {
       title: "StudyBuddy",
       image: "images/projects/studybuddy.jpg",
       type: "Open Source",
