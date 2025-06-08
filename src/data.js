@@ -1,7 +1,7 @@
 let data = {
   firstName: "Akshay",
   lastName: "Chavan",
-  role: "Full Stack Software Developer",
+  role: "Senior Software Engineer",
   portfolioLink: "https://akshaychavan7.github.io/",
   metaTitle: "Akshay Chavan - Developer Portfolio",
   aboutMeText: `I'm a passionate <span class="rich-letters">Full-Stack Software Engineer</span> and a <span class="rich-letters">Computer Science Master’s student at Northeastern University, Boston</span>, with 4+ years of experience crafting scalable, user-focused applications. My journey spans a diverse tech landscape — from <span class="rich-letters">MEAN</span> and <span class="rich-letters">MERN</span> stacks to <span class="rich-letters">Ruby on Rails</span>, <span class="rich-letters">Java</span>, and even <span class="rich-letters">Android app development</span>. Recently, I've been diving deeper into the world of <span class="rich-letters">AI engineering</span>, building intelligent systems that bridge the gap between human insight and machine learning.<br/><br/>
