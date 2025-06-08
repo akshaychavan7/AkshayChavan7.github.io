@@ -1215,13 +1215,6 @@ This site is my little corner of the internet — a place to showcase my work, s
       location: "Northeastern University"
     },
     {
-      title: "Boston Seaport",
-      image: "images/gallery/boston_seaport.jpg",
-      likes: 0,
-      date: "June 2025",
-      location: "Boston Seaport"
-    },
-    {
       title: "Hello Sarge!",
       image: "images/gallery/dog_sarge.jpg",
       likes: 0,
@@ -1242,7 +1235,6 @@ This site is my little corner of the internet — a place to showcase my work, s
       date: "October 2023",
       location: "Fenway Park"
     },
-    
     {
       title: "Fab Five",
       image: "images/gallery/fab5.jpg",
@@ -1389,6 +1381,83 @@ This site is my little corner of the internet — a place to showcase my work, s
       likes: 0,
       date: "August 2024",
       location: "Lake Whitney State Park"
+    },
+    {
+      title: "PriceLabs Team",
+      image: "images/gallery/pricelabs2.jpg",
+      likes: 0,
+      date: "December 2024",
+      location: "Udaipur, India"
+    },
+    {
+      title: "Graduation Day Fab5",
+      image: "images/gallery/graduation_day_fab5.jpg",
+      likes: 0,
+      date: "May 2025",
+      location: "Northeastern University"
+    },
+    {
+      title: "French Colony",
+      image: "images/gallery/french_colony.jpg",
+      likes: 0,
+      date: "August 2023",
+      location: "Pondicherry, India"
+    },
+    {
+      title: "Pondi Beach",
+      image: "images/gallery/pondi_beach.jpg",
+      likes: 0,
+      date: "August 2023",
+      location: "Pondicherry, India"
+    },
+    {
+      title: "PriceLabs Team",
+      image: "images/gallery/pricelabs.jpg",
+      likes: 0,
+      date: "December 2024",
+      location: "Dallas, TX"
+    },
+    {
+      title: "Udaipur Diaries",
+      image: "images/gallery/udaipur_resot.jpg",
+      likes: 0,
+      date: "December 2023",
+      location: "Udaipur, India"
+    },
+    {
+      title: "Dawn",
+      image: "images/gallery/pondi_beach_dawn.jpg",
+      likes: 0,
+      date: "August 2023",
+      location: "Pondicherry, India"
+    },
+    {
+      title: "Botanical Garden",
+      image: "images/gallery/botanical_garden.jpg",
+      likes: 0,
+      date: "August 2023",
+      location: "Pondicherry, India"
+    },
+    {
+      title: "Hera Pheri",
+      image: "images/gallery/hera_pheri.jpg",
+      likes: 0,
+      date: "August 2023",
+      location: "Pondicherry, India"
+    },
+    {
+      title: "Camping Adventure",
+      image: "images/gallery/camping4.jpg",
+      likes: 0,
+      date: "August 2024",
+      location: "Lake Whitney State Park"
+    },
+    {
+      title: "Boston Seaport",
+      image: "images/gallery/boston_seaport.jpg",
+      likes: 0,
+      date: "June 2025",
+      location: "Boston Seaport"
     },
   ],
 };
