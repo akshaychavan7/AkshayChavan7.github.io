@@ -1414,14 +1414,14 @@ This site is my little corner of the internet — a place to showcase my work, s
       title: "PriceLabs Team",
       image: "images/gallery/pricelabs.jpg",
       likes: 0,
-      date: "December 2024",
-      location: "Dallas, TX"
+      date: "December 2022",
+      location: "Udaipur, India"
     },
     {
       title: "Udaipur Diaries",
       image: "images/gallery/udaipur_resot.jpg",
       likes: 0,
-      date: "December 2023",
+      date: "December 2022",
       location: "Udaipur, India"
     },
     {
