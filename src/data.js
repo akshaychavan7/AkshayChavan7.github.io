@@ -4,15 +4,15 @@ let data = {
   role: "Senior Software Engineer",
   portfolioLink: "https://akshaychavan7.github.io/",
   metaTitle: "Akshay Chavan - Developer Portfolio",
-  aboutMeText: `I'm a passionate <span class="rich-letters">Full-Stack Software Engineer</span> and a <span class="rich-letters">Computer Science Master’s student at Northeastern University, Boston</span>, with 4+ years of experience crafting scalable, user-focused applications. My journey spans a diverse tech landscape — from <span class="rich-letters">MEAN</span> and <span class="rich-letters">MERN</span> stacks to <span class="rich-letters">Ruby on Rails</span>, <span class="rich-letters">Java</span>, and even <span class="rich-letters">Android app development</span>. Recently, I've been diving deeper into the world of <span class="rich-letters">AI engineering</span>, building intelligent systems that bridge the gap between human insight and machine learning.<br/><br/>
+  aboutMeText: `I'm a passionate <span class="rich-letters">Full-Stack Software Engineer</span> and a <span class="rich-letters">Computer Science Master's student at Northeastern University, Boston</span>, with 4+ years of experience crafting scalable, user-focused applications. My journey spans a diverse tech landscape — from <span class="rich-letters">MEAN</span> and <span class="rich-letters">MERN</span> stacks to <span class="rich-letters">Ruby on Rails</span>, <span class="rich-letters">Java</span>, and even <span class="rich-letters">Android app development</span>. Recently, I've been diving deeper into the world of <span class="rich-letters">AI engineering</span>, building intelligent systems that bridge the gap between human insight and machine learning.<br/><br/>
 
 Whether it's building sleek UIs, architecting backend systems, or deploying robust full-stack and AI-powered solutions, I love every part of the process.<br/><br/>
 
-To me, code is more than syntax — it’s a creative canvas where ideas come to life. Solving challenging problems, optimizing systems, or just refactoring messy logic into something beautiful? That’s my kind of fun.<br/><br/>
+To me, code is more than syntax — it's a creative canvas where ideas come to life. Solving challenging problems, optimizing systems, or just refactoring messy logic into something beautiful? That's my kind of fun.<br/><br/>
 
-Outside of tech, I’m just as adventurous. I recharge by <span class="rich-letters">hiking new trails</span>, <span class="rich-letters">traveling to offbeat places</span>, and getting competitive in <span class="rich-letters">cricket</span>, <span class="rich-letters">volleyball</span>, or a good game of <span class="rich-letters">chess</span>.<br/><br/>
+Outside of tech, I'm just as adventurous. I recharge by <span class="rich-letters">hiking new trails</span>, <span class="rich-letters">traveling to offbeat places</span>, and getting competitive in <span class="rich-letters">cricket</span>, <span class="rich-letters">volleyball</span>, or a good game of <span class="rich-letters">chess</span>.<br/><br/>
 
-This site is my little corner of the internet — a place to showcase my work, share what I’m learning, and connect with like-minded people. <br/><span class="rich-letters">Let’s build, learn, and grow together.</span>
+This site is my little corner of the internet — a place to showcase my work, share what I'm learning, and connect with like-minded people. <br/><span class="rich-letters">Let's build, learn, and grow together.</span>
 `,
   actionVerbs: [
     "Full Stack Developer!",
@@ -1183,6 +1183,211 @@ This site is my little corner of the internet — a place to showcase my work, s
           icon: "images/certifications/icons/scholar.png",
         },
       ],
+    },
+  ],
+  gallery: [
+    {
+      title: "Graduation Day Memory",
+      image: "images/gallery/IMG_2888~2.jpg",
+      likes: 0,
+      date: "May 2025",
+      location: "Boston, MA"
+    },
+    {
+      title: "Graduated!",
+      image: "images/gallery/20250507_182823~2.jpg",
+      likes: 0,
+      date: "May 2025",
+      location: "Northeastern University"
+    },
+    {
+      title: "Fab Five",
+      image: "images/gallery/fab5.jpg",
+      likes: 0,
+      date: "May 2025",
+      location: "Boston, MA"
+    },
+    {
+      title: "Graduation Ceremony",
+      image: "images/gallery/graduation_celemony_walk.jpg",
+      likes: 0,
+      date: "May 2025",
+      location: "Northeastern University"
+    },
+    {
+      title: "Boston Seaport",
+      image: "images/gallery/boston_seaport.jpg",
+      likes: 0,
+      date: "June 2025",
+      location: "Boston Seaport"
+    },
+    {
+      title: "Hello Sarge!",
+      image: "images/gallery/dog_sarge.jpg",
+      likes: 0,
+      date: "March 2024",
+      location: "Northeastern University"
+    },
+    {
+      title: "BU Spark Hackathon Winner",
+      image: "images/gallery/BU_Spark_hackathon_winner.jpg",
+      likes: 0,
+      date: "February 2025",
+      location: "Boston University"
+    },
+    {
+      title: "Fall Fest with Gang",
+      image: "images/gallery/fall_fest.jpg",
+      likes: 0,
+      date: "October 2023",
+      location: "Northeastern University"
+    },
+    {
+      title: "Northeastern University Class of 2025",
+      image: "images/gallery/IMG_2952.jpg",
+      likes: 0,
+      date: "October 2023",
+      location: "Boston, MA"
+    },
+    {
+      title: "Meet Ryder",
+      image: "images/gallery/IMG_2669~2.jpg",
+      likes: 0,
+      date: "May 2025",
+      location: "Northeastern University"
+    },
+    {
+      title: "Diwali at Copart",
+      image: "images/gallery/IMG_4398.jpg",
+      likes: 0,
+      date: "November 2025",
+      location: "Dallas, TX"
+    },
+    {
+      title: "Diwali 24 with Friends",
+      image: "images/gallery/ezgif-frame-001.jpg",
+      likes: 0,
+      date: "November 2024",
+      location: "Dallas, TX"
+    },
+    {
+      title: "SharkHack 2025 Winner",
+      image: "images/gallery/i-NNb4RcP-XL.jpg",
+      likes: 0,
+      date: "April 2025",
+      location: "Simmons University"
+    },
+    {
+      title: "Potluck",
+      image: "images/gallery/potluck.jpg",
+      likes: 0,
+      date: "February 2024",
+      location: "Boston, MA"
+    },
+    {
+      title: "Chai pe charcha",
+      image: "images/gallery/tea_time.jpg",
+      likes: 0,
+      date: "May 2025",
+      location: "Boston, MA"
+    },
+    {
+      title: "Cricket with Copart Team",
+      image: "images/gallery/cricket.jpg",
+      likes: 0,
+      date: "September 2024",
+      location: "Dallas, TX"
+    },
+    {
+      title: "SharkHack Winner",
+      image: "images/gallery/sharkhack_winner.jpg",
+      likes: 0,
+      date: "January 2024",
+      location: "SharkHack, Boston"
+    },
+    {
+      title: "SharkHack Event",
+      image: "images/gallery/sharkhack.jpg",
+      likes: 0,
+      date: "January 2024",
+      location: "SharkHack, Boston"
+    },
+    {
+      title: "Twinning #Diwali2024",
+      image: "images/gallery/20241108_135211~2.jpg",
+      likes: 0,
+      date: "November 2024",
+      location: "Dallas, TX"
+    },
+    {
+      title: "Diwali 2023",
+      image: "images/gallery/diwali_2024.jpg",
+      likes: 0,
+      date: "November 2023",
+      location: "Boston, MA"
+    },
+    {
+      title: "Halloween 2023",
+      image: "images/gallery/halloween_2024.jpg",
+      likes: 0,
+      date: "December 2023",
+      location: "Boston, MA"
+    },
+    {
+      title: "Camping",
+      image: "images/gallery/camping.jpg",
+      likes: 0,
+      date: "August 2024",
+      location: "Lake Whitney State Park"
+    },
+    {
+      title: "Holi 2025",
+      image: "images/gallery/holi_2025.jpg",
+      likes: 0,
+      date: "March 2024",
+      location: "Boston, MA"
+    },
+    {
+      title: "Diwali 2024",
+      image: "images/gallery/Diwali_2024_friends1.jpg",
+      likes: 0,
+      date: "November 2024",
+      location: "Dallas, TX"
+    },
+    {
+      title: "Pondi 🍹",
+      image: "images/gallery/Pondicherry.jpg",
+      likes: 0,
+      date: "August 2023",
+      location: "Pondicherry, India"
+    },
+    {
+      title: "Undergrad Days",
+      image: "images/gallery/undergrad.jpg",
+      likes: 0,
+      date: "March 2019",
+      location: "Nashik, India"
+    },
+    {
+      title: "Camping",
+      image: "images/gallery/camping2.jpg",
+      likes: 0,
+      date: "August 2024",
+      location: "Lake Whitney State Park"
+    },
+    {
+      title: "Say hi to Fio",
+      image: "images/gallery/fio.jpg",
+      likes: 0,
+      date: "September 2024",
+      location: "Dallas, TX"
+    },
+    {
+      title: "Camping",
+      image: "images/gallery/camping3.jpg",
+      likes: 0,
+      date: "August 2024",
+      location: "Lake Whitney State Park"
     },
   ],
 };
