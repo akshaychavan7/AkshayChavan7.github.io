@@ -23,10 +23,20 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Prepare files
+        run: |
+          # Create a temporary directory for the build
+          mkdir -p build
+          # Copy all files from src to build
+          cp -r src/* build/
+          # Remove any unnecessary files
+          rm -f build/.DS_Store
+          rm -f build/**/.DS_Store
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: src
+          path: build
 
       - name: Deploy to GitHub Pages
         id: deployment
