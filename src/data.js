@@ -1236,11 +1236,11 @@ This site is my little corner of the internet — a place to showcase my work, s
       location: "Boston University"
     },
     {
-      title: "Fall Fest with Gang",
+      title: "Fall Fest",
       image: "images/gallery/fall_fest.jpg",
       likes: 0,
       date: "October 2023",
-      location: "Northeastern University"
+      location: "Fenway Park"
     },
     {
       title: "Northeastern University Class of 2025",
