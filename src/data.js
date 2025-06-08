@@ -1201,10 +1201,10 @@ This site is my little corner of the internet — a place to showcase my work, s
       location: "Northeastern University"
     },
     {
-      title: "Fab Five",
-      image: "images/gallery/fab5.jpg",
+      title: "Northeastern University Class of 2025",
+      image: "images/gallery/IMG_2952.jpg",
       likes: 0,
-      date: "May 2025",
+      date: "October 2023",
       location: "Boston, MA"
     },
     {
@@ -1242,11 +1242,12 @@ This site is my little corner of the internet — a place to showcase my work, s
       date: "October 2023",
       location: "Fenway Park"
     },
+    
     {
-      title: "Northeastern University Class of 2025",
-      image: "images/gallery/IMG_2952.jpg",
+      title: "Fab Five",
+      image: "images/gallery/fab5.jpg",
       likes: 0,
-      date: "October 2023",
+      date: "May 2025",
       location: "Boston, MA"
     },
     {
