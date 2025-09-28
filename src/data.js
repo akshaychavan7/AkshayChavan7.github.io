@@ -1,7 +1,7 @@
 let data = {
   firstName: "Akshay",
   lastName: "Chavan",
-  role: "Senior Software Engineer",
+  role: "Software Development Engineer 2 @ Amazon",
   portfolioLink: "https://akshaychavan7.github.io/",
   metaTitle: "Akshay Chavan - Developer Portfolio",
   aboutMeText: `I'm a passionate <span class="rich-letters">Full-Stack Software Engineer</span> and a <span class="rich-letters">Computer Science Master's student at Northeastern University, Boston</span>, with 4+ years of experience crafting scalable, user-focused applications. My journey spans a diverse tech landscape — from <span class="rich-letters">MEAN</span> and <span class="rich-letters">MERN</span> stacks to <span class="rich-letters">Ruby on Rails</span>, <span class="rich-letters">Java</span>, and even <span class="rich-letters">Android app development</span>. Recently, I've been diving deeper into the world of <span class="rich-letters">AI engineering</span>, building intelligent systems that bridge the gap between human insight and machine learning.<br/><br/>
@@ -59,14 +59,14 @@ This site is my little corner of the internet — a place to showcase my work, s
   ],
   stats: [
     {
-      value: "4+",
+      value: "5+",
       "text-1": "Years of",
       "text-2": "Industry Experience",
     },
     {
       value: "20+",
       "text-1": "Projects Completed",
-      "text-2": "with 5+ Tech Stacks",
+      "text-2": "with 6+ Tech Stacks",
     },
     {
       value: "26+",
@@ -267,6 +267,25 @@ This site is my little corner of the internet — a place to showcase my work, s
     },
   ],
   experience: [
+    {
+      org: "Amazon",
+      position: "Software Development Engineer 2",
+      duration: "Sept 2025 - Present",
+      location: "Denver, Colorado, United States",
+      technologies: [
+        "Java",
+        "React.js",
+        "TypeScript",
+        "JavaScript",
+        "DynamoDB",
+        "AWS"
+      ],
+      details: [
+        "Designing and scaling vendor-facing tools as part of Amazon Shopping Guides supporting $1B+ in annual revenue.",
+        "Engineering a self-service refunds platform for Amazon marketing packages, handling high-volume workflows with $1M+ average transaction value.",
+      ],
+      accentColor: "#ff9900",
+    },
     {
       org: "Northeastern University",
       position: "Graduate Research Assistant",
@@ -1220,6 +1239,13 @@ This site is my little corner of the internet — a place to showcase my work, s
       likes: 0,
       date: "March 2024",
       location: "Northeastern University"
+    },
+    {
+      title: "Hiking @ Red Rocks Amphitheatre!",
+      image: "images/gallery/red_rocks_amphitheatre.jpg",
+      likes: 23,
+      date: "Sept 2025",
+      location: "Denver, CO"
     },
     {
       title: "BU Spark Hackathon Winner",
