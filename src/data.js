@@ -690,15 +690,15 @@ This site is my little corner of the internet — a place to showcase my work, s
     {
       title: "Professional Cloud Developer",
       image:
-        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/97319690",
+        "images/certifications/Google Cloud Certified Professional Cloud Developer.jpg",
       issued_by: "Google",
       credential:
-        "https://www.credential.net/680f4de7-50d8-4c29-a5f8-a5011f24fe05",
+        "https://drive.google.com/file/d/1djfnEVOajQAttbiPDVlBeJRFaylCWuZH/view?usp=drive_link",
     },
     {
       title: "Associate Cloud Engineer",
       image:
-        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/97319689",
+        "images/certifications/Google Cloud Certified Associate Cloud Engineer.jpg",
       issued_by: "Google",
       credential:
         "https://www.credential.net/52655878-e41d-4a05-9f12-28cd5f1b79a8",
@@ -706,10 +706,10 @@ This site is my little corner of the internet — a place to showcase my work, s
     {
       title: "Cloud Digital Leader",
       image:
-        "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/97319688",
+        "images/certifications/Google Cloud Certified Cloud Digital Leader.jpg",
       issued_by: "Google",
       credential:
-        "https://www.credential.net/987606a5-3965-419c-989b-7a8b687abe57",
+        "https://drive.google.com/file/d/1I4GhmCV0s-ugbeJaQG4KUGbBSELvH1VC/view?usp=drive_link",
     },
     {
       title: "GCP Associate Cloud Engineer",
@@ -717,7 +717,7 @@ This site is my little corner of the internet — a place to showcase my work, s
         "https://udemy-certificate.s3.amazonaws.com/image/UC-3006cbe6-2c5a-487a-8d7f-ffa9a3d0bdaf.jpg?v=1652943599000",
       issued_by: "Udemy",
       credential:
-        "https://www.udemy.com/certificate/UC-3006cbe6-2c5a-487a-8d7f-ffa9a3d0bdaf/",
+        "https://drive.google.com/file/d/1mSbejxHfoF41msWic0dIT-bePxZkN122/view?usp=drive_link",
     },
     {
       title: "OCI Foundations Certified Associate",
