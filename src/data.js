@@ -4,15 +4,15 @@ let data = {
   role: "Software Development Engineer 2 @ Amazon",
   portfolioLink: "https://akshaychavan7.github.io/",
   metaTitle: "Akshay Chavan - Developer Portfolio",
-  aboutMeText: `I'm a passionate <span class="rich-letters">Full-Stack Software Engineer</span> and a <span class="rich-letters">Computer Science Master's student at Northeastern University, Boston</span>, with 4+ years of experience crafting scalable, user-focused applications. My journey spans a diverse tech landscape — from <span class="rich-letters">MEAN</span> and <span class="rich-letters">MERN</span> stacks to <span class="rich-letters">Ruby on Rails</span>, <span class="rich-letters">Java</span>, and even <span class="rich-letters">Android app development</span>. Recently, I've been diving deeper into the world of <span class="rich-letters">AI engineering</span>, building intelligent systems that bridge the gap between human insight and machine learning.<br/><br/>
+  aboutMeText: `I'm a <span class="rich-letters">Software Development Engineer II at Amazon</span> with over 5 years of experience building scalable, user-focused applications across cloud-native and distributed systems. I hold a <span class="rich-letters">Master’s in Computer Science from Northeastern University, Boston</span>.<br/><br/>
 
-Whether it's building sleek UIs, architecting backend systems, or deploying robust full-stack and AI-powered solutions, I love every part of the process.<br/><br/>
+My work spans multiple technologies, including MEAN and MERN stacks, Ruby on Rails, Java, and Android development. At Amazon, I focus on designing and scaling high-impact systems that power vendor-facing experiences and support large-scale business operations.<br/><br/>
 
-To me, code is more than syntax — it's a creative canvas where ideas come to life. Solving challenging problems, optimizing systems, or just refactoring messy logic into something beautiful? That's my kind of fun.<br/><br/>
+I enjoy working across the stack, from architecting backend systems to crafting intuitive frontends, and I’m passionate about creating solutions that balance performance, reliability, and maintainability. To me, code is more than syntax; it’s a medium to solve real problems and bring ideas to life.<br/><br/>
 
-Outside of tech, I'm just as adventurous. I recharge by <span class="rich-letters">hiking new trails</span>, <span class="rich-letters">traveling to offbeat places</span>, and getting competitive in <span class="rich-letters">cricket</span>, <span class="rich-letters">volleyball</span>, or a good game of <span class="rich-letters">chess</span>.<br/><br/>
+Outside of work, I love hiking new trails, traveling to offbeat places, and getting competitive in cricket, volleyball, or a good game of chess. This site is my space to showcase my work, share what I’m learning, and connect with like-minded people.<br/><br/>
+<span class="rich-letters">Let’s build, learn, and grow together.</span>
 
-This site is my little corner of the internet — a place to showcase my work, share what I'm learning, and connect with like-minded people. <br/><span class="rich-letters">Let's build, learn, and grow together.</span>
 `,
   actionVerbs: [
     "Full Stack Developer!",
