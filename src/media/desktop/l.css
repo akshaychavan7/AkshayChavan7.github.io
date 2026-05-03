@@ -12,9 +12,15 @@
 
     }
 
-    #first-name,
+    #first-name {
+        font-size: 66px;
+        letter-spacing: 12px;
+    }
+
     #last-name {
-        font-size: 42px;
+        font-size: 66px;
+        letter-spacing: 3px;
+        line-height: 1;
     }
 
     .tag {

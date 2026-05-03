@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!-- mobile responsiveness -->
     <meta charset="utf-8" />
@@ -23,10 +23,54 @@
     <meta property="og:title" content="Akshay Chavan - Developer Portfolio" />
     <meta property="og:url" content="https://akshaychavan7.github.io/" />
     <meta property="og:image" content="images/banner_screenshot.png" />
+    <meta property="og:type" content="website" />
     <meta
       name="description"
       content="Crafting digital experiences with a passion for innovation. Explore my developer portfolio showcasing a blend of creativity and precision in web and mobile development."
     />
+    <meta property="og:description" content="Crafting digital experiences with a passion for innovation. Explore my developer portfolio showcasing a blend of creativity and precision in web and mobile development." />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Aksh_ayC7" />
+    <meta name="twitter:creator" content="@Aksh_ayC7" />
+    <meta name="twitter:title" content="Akshay Chavan - Developer Portfolio" />
+    <meta name="twitter:description" content="Crafting digital experiences with a passion for innovation. Explore my developer portfolio showcasing a blend of creativity and precision in web and mobile development." />
+    <meta name="twitter:image" content="https://akshaychavan7.github.io/images/banner_screenshot.png" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://akshaychavan7.github.io/" />
+
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Akshay Chavan",
+      "url": "https://akshaychavan7.github.io/",
+      "image": "https://akshaychavan7.github.io/images/akshay_compressed.png",
+      "jobTitle": "Software Development Engineer II",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Amazon"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Northeastern University"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Savitribai Phule Pune University"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/akshaychavan7/",
+        "https://github.com/akshaychavan7",
+        "https://twitter.com/Aksh_ayC7"
+      ]
+    }
+    </script>
 
     <title>Akshay Chavan - Developer Portfolio</title>
     <link rel="icon" href="images/title/favicon.png" type="image/icon type" />
@@ -51,6 +95,9 @@
 
     <!-- Required for AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- GLightbox for gallery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 
     <!-- media queries -->
     <!-- mobile -->
@@ -98,28 +145,12 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Monsieur+La+Doulaise&family=Montserrat&family=Smooch&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat&family=Monsieur+La+Doulaise&family=Montserrat&family=Smooch&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat&family=Smooch&family=Zeyada&display=swap"
       rel="stylesheet"
     />
 
     <!-- scripts -->
-    <script defer src="dependencies/jQuery/ajax.googleapis.com_ajax_libs_jquery_3.6.1_jquery.min.js"></script>
-    <script defer src="dependencies/bootstrap/cdn.jsdelivr.net_npm_bootstrap@4.0.0_dist_js_bootstrap.min.js"></script>
-    <script defer src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script defer src="js/imageOptimization.js"></script>
-    <script defer src="js/index.js"></script>
     <script>
         // Register service worker
         if ('serviceWorker' in navigator) {
@@ -137,6 +168,7 @@
   </head>
 
   <body>
+    <a href="#about" class="skip-nav">Skip to main content</a>
     <!-- Loader -->
     <div id="loader">
       <!-- css loader -->
@@ -210,7 +242,7 @@
     </nav>
 
     <div id="up" class="up">
-      <i id="up-icon" class="fa fa-chevron-up"></i>
+      <i id="up-icon" class="fa fa-chevron-up" aria-hidden="true"></i>
     </div>
     <!-- Navbar end -->
 
@@ -218,7 +250,7 @@
     <div id="banner-div" class="container-fluid">
       <div class="grad-circle" id="mini-circle">
         <a href="https://github.com/akshaychavan7" target="_blank">
-          <i class="fa-brands fa-github fa-2xl repo-link"></i>
+          <i class="fa-brands fa-github fa-2xl repo-link" aria-hidden="true"></i>
         </a>
       </div>
       <div id="bg-circle" class="grad-circle"></div>
@@ -262,8 +294,6 @@
         <div id="overall-stats" class="stats stats-div"></div>
       </div>
     </div>
-    <div class="circle" id="circle-1"></div>
-    <div class="circle" id="circle-2"></div>
 
     <div class="space"></div>
     <!-- Banner end -->
@@ -303,6 +333,7 @@
           >
             <i
               class="fa fa-file-text"
+              aria-hidden="true"
               style="color: black; background-color: transparent"
             ></i>
             <span
@@ -322,9 +353,9 @@
 
     <!-- Experience -->
     <div id="exp" class="container-fluid exp-div">
-      <p id="tech-stack-title">Experience</p>
+      <p class="section-title">Experience</p>
       <p
-        id="tech-stack-text"
+        class="section-subtitle"
         style="
           background-color: transparent;
           text-align: center;
@@ -338,9 +369,9 @@
 
     <!-- Projects -->
     <div id="projects-div" class="container-fluid projects-div">
-      <p id="tech-stack-title">Projects</p>
+      <p class="section-title">Projects</p>
       <p
-        id="tech-stack-text"
+        class="section-subtitle"
         style="background-color: transparent; text-align: center"
       >
         Passion projects that sparked my interest!
@@ -365,8 +396,8 @@
     <!-- Tech Stack -->
     <div id="tech" class="tech-stack">
       <div class="tech-stack-detail">
-        <p id="tech-stack-title">Tech Stack</p>
-        <p id="tech-stack-text">
+        <p class="section-title">Tech Stack</p>
+        <p class="section-subtitle">
           Change is inevitable, so I keep on exploring new technology, learn it
           in a minimal possible way and then build something out of it to see
           how well I did :)
@@ -412,7 +443,7 @@
           class="tech-row"
         ></div>
 
-        <p class="label-stack">Version controlloing & management</p>
+        <p class="label-stack">Version controlling & management</p>
         <div
           id="vc-tech"
           data-aos="fade-right"
@@ -457,7 +488,7 @@
             </div>
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <h5 id="university" class="timeline-title">
+              <h5 class="university" class="timeline-title">
                 Khoury College of Computer Sciences, Northeastern University
               </h5>
               <div class="timeline-subtitle container">
@@ -467,8 +498,7 @@
                   </div>
                   <div class="col-sm-6 education-location">
                     <i
-                      class="fa fa-map-marker location-icon"
-                      aria-hidden="true"
+                      class="fa fa-map-marker location-icon" aria-hidden="true"
                     ></i
                     >&nbsp;&nbsp; Boston, MA, United States
                   </div>
@@ -514,7 +544,7 @@
             </div>
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <h5 id="university" class="timeline-title">
+              <h5 class="university" class="timeline-title">
                 Savitribai Phule Pune University
               </h5>
               <div class="timeline-subtitle container">
@@ -524,8 +554,7 @@
                   </div>
                   <div class="col-sm-6 education-location">
                     <i
-                      class="fa fa-map-marker location-icon"
-                      aria-hidden="true"
+                      class="fa fa-map-marker location-icon" aria-hidden="true"
                     ></i
                     >&nbsp;&nbsp; Pune, MH, India
                   </div>
@@ -590,7 +619,7 @@
             </div>
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <h5 id="university" class="timeline-title">
+              <h5 class="university" class="timeline-title">
                 Maharashtra State Board of Technical Education
               </h5>
               <div class="timeline-subtitle container">
@@ -600,8 +629,7 @@
                   </div>
                   <div class="col-sm-6 education-location">
                     <i
-                      class="fa fa-map-marker location-icon"
-                      aria-hidden="true"
+                      class="fa fa-map-marker location-icon" aria-hidden="true"
                     ></i
                     >&nbsp;&nbsp; Mumbai, MH, India
                   </div>
@@ -653,8 +681,8 @@
 
     <!-- Achievements/Extracurricular -->
     <div id="achievements" class="container-fluid achievements-div">
-      <p id="tech-stack-title">Achievements</p>
-      <p id="achievements-subtitle" class="achievements-subtitle">
+      <p class="section-title">Achievements</p>
+      <p class="achievements-subtitle">
         Turning aspirations into accomplishments, one milestone at a time.
       </p>
       <div class="container-fluid achievements-grid-container">
@@ -665,7 +693,7 @@
 
     <!-- Certifications -->
     <div id="certifications-div" class="container-fluid certifications-div">
-      <p id="tech-stack-title">Certifications</p>
+      <p class="section-title">Certifications</p>
 
       <div style="height: 50px"></div>
 
@@ -675,19 +703,19 @@
 
     <!-- Gallery -->
     <div id="gallery" class="container-fluid gallery-div">
-      <p id="tech-stack-title">Gallery</p>
-      <p id="achievements-subtitle" class="achievements-subtitle">
+      <p class="section-title">Gallery</p>
+      <p class="achievements-subtitle">
         Akshay is more than just a developer. 
       </p>
-      <div id="gallery" class="gallery"></div>
+      <div id="gallery-container" class="gallery"></div>
     </div>
     <!-- Gallery end -->
 
     <!-- Contact -->
     <div id="contact-div" class="container-fluid contact-div">
-      <p id="tech-stack-title">Get in touch</p>
+      <p class="section-title">Get in touch</p>
       <p
-        id="tech-stack-text"
+        class="section-subtitle"
         style="background-color: transparent; text-align: center"
       >
         Let's build something together :)
@@ -707,19 +735,21 @@
             </div>
           </div>
 
+          <div id="availability-badge"></div>
+
           <button
             type="button"
             onclick="onMeetClick()"
             class="btn btn-success"
             id="meet-btn"
           >
-            <i id="meet-icon" class="fa fa-video-camera"></i>
+            <i class="fa fa-video-camera" aria-hidden="true"></i>
             <span id="meet-btn-text">Let's have a 15 min call</span>
           </button>
           <div class="visitors-title">VISITORS</div>
           <div id="visitor-count" class="visitor-count-txt">
             <img
-              src="/src/images/others/loader2.gif"
+              src="images/others/loader2.gif"
               width="36"
               height="36"
               alt="visitors count"
@@ -730,6 +760,22 @@
         <div id="contact-info-div" class="contact-info-div">
           <div class="line"></div>
           <div id="social-contact-icons" class="social-contact-icons"></div>
+          <div class="contact-form-wrapper">
+            <h3>Send a message</h3>
+            <!-- Replace the action URL with your Formspree endpoint: https://formspree.io -->
+            <form
+              class="contact-form"
+              action="https://formspree.io/f/YOUR_FORM_ID"
+              method="POST"
+              id="contact-form"
+            >
+              <input type="text" name="name" placeholder="Your name" required autocomplete="name" />
+              <input type="email" name="email" placeholder="Your email" required autocomplete="email" />
+              <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+              <button type="submit" class="contact-form-submit">Send Message</button>
+              <p class="contact-form-status" id="contact-form-status" aria-live="polite"></p>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -784,6 +830,50 @@
     <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript" src="js/gallery.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+    <script>
+      // Availability badge
+      (function () {
+        const badge = document.getElementById("availability-badge");
+        if (!badge) return;
+        const available = data.isAvailableForWork;
+        badge.innerHTML = `
+          <span class="availability-badge ${available ? 'available' : 'unavailable'}">
+            <span class="availability-dot"></span>
+            ${available ? 'Open to opportunities' : 'Not currently looking'}
+          </span>`;
+      })();
+
+      // Contact form with Formspree AJAX
+      (function () {
+        const form = document.getElementById("contact-form");
+        const status = document.getElementById("contact-form-status");
+        if (!form || !status) return;
+        form.addEventListener("submit", async function (e) {
+          e.preventDefault();
+          status.textContent = "Sending…";
+          status.style.color = "#aaa";
+          try {
+            const res = await fetch(form.action, {
+              method: "POST",
+              body: new FormData(form),
+              headers: { Accept: "application/json" },
+            });
+            if (res.ok) {
+              status.textContent = "Message sent! I'll be in touch soon.";
+              status.style.color = "#00c864";
+              form.reset();
+            } else {
+              throw new Error("Server error");
+            }
+          } catch {
+            status.textContent = "Something went wrong. Please email me directly.";
+            status.style.color = "#ff6b6b";
+          }
+        });
+      })();
+    </script>
     <!-- --------------------------------------scripts end ----------------------------------- -->
   </body>
 </html>

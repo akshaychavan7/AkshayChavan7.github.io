@@ -3,36 +3,38 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function mapExperienceData() {
-  let exp = data.experience;
+  const exp = data.experience;
 
-  var expCard = document.createElement("div");
+  const expCard = document.createElement("div");
   expCard.id = "experience";
-  var experienceList = document.createElement("ul");
+  const experienceList = document.createElement("ul");
   experienceList.id = "experience-list";
   expCard.appendChild(experienceList);
-  var experienceItemsString = "";
-  for (var i = 0; i < exp.length; i++) {
+  let experienceItemsString = "";
+
+  for (let i = 0; i < exp.length; i++) {
     const experience = exp[i];
-    var experienceDescriptionList = "";
-    var techStack =
+    let experienceDescriptionList = "";
+    const techStack =
       "<span style='font-weight:600'>Tech Stack:</span> " +
       experience.technologies.join(", ");
-    for (var j = 0; j < experience.details.length; j++) {
+
+    for (let j = 0; j < experience.details.length; j++) {
       experienceDescriptionList += `<div class='exp-item'>
-      <i class="fa fa-angle-double-right experience-bullet" aria-hidden="true"></i>
-      <li id='exp-point'>${experience.details[j]}</li>
+      <span class="exp-bullet-dot" aria-hidden="true"></span>
+      <li class='exp-point'>${experience.details[j]}</li>
       </div>`;
     }
-    experienceDescriptionList += `<div class='exp-item'>
-    <i class="fa fa-angle-double-right experience-bullet" aria-hidden="true"></i>
-    <li id='exp-point'>${techStack}</li>
+    experienceDescriptionList += `<div class='exp-item exp-tech-stack-item'>
+    <span class="exp-bullet-dot exp-bullet-dot--tech" aria-hidden="true"></span>
+    <li class='exp-point'>${techStack}</li>
     </div>`;
 
     const experienceItem = `
-          <li id="experience-item" style="--accent-color: ${experience.accentColor}">
-            <div class="company-name">${experience.org} </div>
+          <li class="experience-item" style="--accent-color: ${experience.accentColor}">
+            <div class="company-name">${experience.org}</div>
             <div class="title">${experience.position} <span class='exp-duration'>${experience.duration}</span></div>
-            <span class='exp-location'><i class="fa fa-map-marker location-icon" aria-hidden="true"></i>&nbsp;&nbsp;${experience.location} </span>
+            <span class='exp-location'><i class="fa fa-map-marker location-icon" aria-hidden="true"></i>&nbsp;&nbsp;${experience.location}</span>
             <div class="descr">
               ${experienceDescriptionList}
             </div>
@@ -41,6 +43,6 @@ function mapExperienceData() {
     experienceItemsString += experienceItem;
   }
   experienceList.innerHTML = experienceItemsString;
-  var experiences = document.getElementById("exp");
+  const experiences = document.getElementById("exp");
   experiences.appendChild(expCard);
 }

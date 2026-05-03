@@ -1,52 +1,105 @@
 @media only screen and (min-width: 320px) and (max-width: 400px) {
+
+  /* ── Navbar ────────────────────────────────────────────────── */
   #app-navbar {
     padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 3%;
   }
 
   #brand {
     font-size: calc(14px + 1vw);
   }
 
+  /* ── Hero: chip & name ─────────────────────────────────────── */
   .tag-wrapper {
-    padding: 4%;
-    padding-top: 5%;
+    padding: 5% 4% 2%;
+  }
+
+  #chip {
+    font-size: 10px;
+    padding: 4px 10px;
   }
 
   .name {
     padding-left: 4%;
-    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
+  #first-name {
+    font-size: 26px;
+    letter-spacing: 4px;
+  }
+
+  #last-name {
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+  }
+
+  /* ── Hero: terminal typing text ────────────────────────────── */
   .tag {
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 4%;
     display: flex;
   }
 
-  #tag {
-    color: white;
-    padding-left: 1%;
+  .type-text-container {
+    width: 90vw;
+    font-size: 11px;
+    padding: 12px;
+    height: auto;
   }
 
-  .trianlge-right {
-    margin-top: 3px;
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-left: 15px solid var(--color-primary);
-    border-bottom: 8px solid transparent;
+  /* ── Hero: social icons ────────────────────────────────────── */
+  .flexbox-container {
+    padding-left: 4%;
+    padding-top: 4%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 6px;
   }
 
   .social-icon-wrapper {
-    padding: 3%;
+    padding: 8px;
+    font-size: 15px;
+    margin-left: 0;
   }
 
+  .dash {
+    display: none;
+  }
+
+  /* ── Hero: CTA link ────────────────────────────────────────── */
   .chat {
-    padding-top: 8.5%;
+    padding-top: 5%;
   }
 
   #chat-btn {
-    padding: 4%;
+    padding: 0 4%;
+    font-size: 10px;
+  }
+
+  /* ── Hero: profile picture — hidden on XS (too cramped) ────── */
+  .profile-picture,
+  .dp {
+    display: none;
+  }
+
+  #bg-circle,
+  #mini-circle {
+    display: none;
+  }
+
+  /* ── Hero: stats — flow inline below hero text ─────────────── */
+  .stats-div {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 5% 4% 4%;
   }
 
   .stats {
@@ -54,52 +107,56 @@
     background-color: transparent;
   }
 
-  .stats-div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 5%;
-  }
-
   .stats-data {
     display: flex;
-    margin-left: 5%;
-    padding-top: 20px;
+    padding-top: 0;
+    margin-left: 0;
   }
 
   .stats-label-column {
-    width: 150px;
-    padding-left: 3%;
+    width: auto;
+    padding-left: 8px;
   }
 
-  .profile-picture {
-    float: right;
-    position: relative;
-    right: -30%;
-    bottom: 10%;
+  .value {
+    font-size: 22px;
   }
 
-  .dp {
-    height: 400px;
-    margin-left: 25%;
+  .stats-label {
+    font-size: 9px;
+    width: max-content;
   }
 
   .space {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
+  /* ── Section titles ────────────────────────────────────────── */
+  .section-title,
+  #about-me-title {
+    font-size: 22px;
+  }
+
+  /* ── About ─────────────────────────────────────────────────── */
   .about {
-    padding-top: 50px;
+    padding-top: 40px;
     flex-direction: column-reverse;
     align-items: center;
   }
 
   #about-img {
     width: 90%;
+    height: auto;
+  }
+
+  .memory-lane {
+    font-size: 48px;
   }
 
   .about-text {
     text-align: center;
+    padding-left: 0;
+    margin-right: 0;
   }
 
   #about-me-heading,
@@ -121,13 +178,14 @@
     padding-bottom: 5%;
   }
 
+  /* ── Tech stack ────────────────────────────────────────────── */
   .tech-stack {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  #tech-stack-text {
+  .section-subtitle {
     width: 100%;
   }
 
@@ -136,13 +194,15 @@
   }
 
   .stack-illustration {
-    padding: 0px;
+    padding: 0;
   }
 
   #stack-illustration {
-    height: 300px;
+    height: 240px;
+    width: auto;
   }
 
+  /* ── Experience timeline ───────────────────────────────────── */
   .exp-card {
     width: 99%;
     padding-top: 5%;
@@ -155,6 +215,46 @@
     width: 100%;
   }
 
+  /* Single-column timeline on XS */
+  #experience > ul {
+    grid-template-columns: var(--line-w) 1fr !important;
+    width: 95% !important;
+  }
+
+  #experience > ul::before {
+    grid-column: 1 !important;
+  }
+
+  #experience > ul li,
+  #experience > ul li:nth-child(odd),
+  #experience > ul li:nth-child(even) {
+    grid-column: 2 !important;
+  }
+
+  #experience > ul li:nth-child(2) {
+    grid-row: auto !important;
+  }
+
+  #experience > ul li .company-name,
+  #experience > ul li:nth-child(odd) .company-name {
+    border-radius: calc(var(--companyH) / 2) !important;
+    text-align: center !important;
+  }
+
+  #experience > ul li .company-name::after,
+  #experience > ul li:nth-child(odd) .company-name::after {
+    transform: translate(50%, -50%) !important;
+    right: calc(100% + var(--col-gap) + var(--line-w) / 2) !important;
+    left: auto !important;
+  }
+
+  #experience > ul li:nth-child(odd) .company-name::before {
+    clip-path: polygon(0 0, 100% 0, 0 100%) !important;
+    left: auto !important;
+    right: 0 !important;
+  }
+
+  /* ── Community ─────────────────────────────────────────────── */
   .community-div {
     padding-left: 1%;
     padding-right: 1%;
@@ -163,6 +263,7 @@
 
   .community-card {
     width: 100%;
+    max-width: 100%;
   }
 
   .c-title {
@@ -184,7 +285,9 @@
   }
 
   .calendar {
-    width: 330px;
+    width: min(330px, 90vw);
+    height: auto;
+    min-height: 280px;
   }
 
   .year-txt {
@@ -195,8 +298,19 @@
     font-size: 18px;
   }
 
-  .contact-card {
-    width: 330px !important;
+  /* ── Contact ───────────────────────────────────────────────── */
+  .contact-info-div {
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-card,
+  .contact-card:nth-child(1) {
+    width: calc(100vw - 40px) !important;
+    max-width: 330px !important;
   }
 
   #meet-btn {

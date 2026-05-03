@@ -20,7 +20,8 @@
     justify-self: center;
     align-items: center;
     background-color: var(--bg);
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding: 1%;
     padding-left: 10%;
     border-radius: 8px;

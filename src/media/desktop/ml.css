@@ -9,9 +9,15 @@
     padding-left: 10%;
   }
 
-  #first-name,
+  #first-name {
+    font-size: 52px;
+    letter-spacing: 10px;
+  }
+
   #last-name {
-    font-size: 42px;
+    font-size: 52px;
+    letter-spacing: 2px;
+    line-height: 1;
   }
 
   .tag {

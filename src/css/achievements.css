@@ -82,6 +82,30 @@
   border: 1px solid #3e3e3e;
 }
 
+.achievements-show-more {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.achievements-toggle-btn {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.achievements-toggle-btn:hover {
+  background-color: var(--color-primary);
+  color: var(--bg-dark);
+}
+
 .cutoff-text {
   --max-lines: 3;
   --line-height: 1.4;

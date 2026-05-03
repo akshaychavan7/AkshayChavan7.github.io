@@ -1,60 +1,118 @@
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  /* ── Navbar ────────────────────────────────────────────────── */
+  #app-navbar {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  /* ── Hero: chip & name ─────────────────────────────────────── */
   .tag-wrapper {
-    padding: 4%;
-    padding-top: 5%;
+    padding: 5% 4% 2%;
+  }
+
+  #chip {
+    font-size: 10px;
+    padding: 4px 12px;
   }
 
   .name {
     padding-left: 4%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
+  #first-name {
+    font-size: 38px;
+    letter-spacing: 7px;
+  }
+
+  #last-name {
+    font-size: 38px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+  }
+
+  /* ── Hero: terminal typing text ────────────────────────────── */
   .tag {
     padding-left: 4%;
+    padding-top: 2%;
     display: flex;
   }
 
-  #tag {
-    color: white;
-    padding-left: 1%;
+  .type-text-container {
+    width: min(20.5em, 88vw);
+    font-size: 13px;
   }
 
-  .trianlge-right {
-    margin-top: 3px;
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-left: 15px solid var(--color-primary);
-    border-bottom: 8px solid transparent;
+  /* ── Hero: social icons ────────────────────────────────────── */
+  .flexbox-container {
+    padding-left: 4%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .social-icon-wrapper {
+    padding: 8px;
+    margin-left: 0;
+    margin-right: 4px;
   }
 
   .dash {
     margin-left: 4%;
     background-color: rgb(148, 148, 148);
     height: 1px;
-    width: 100px;
+    width: 60px;
   }
 
-  .social-icon-wrapper {
-    padding: 2.5%;
-    margin-right: 1%;
-  }
-
+  /* ── Hero: CTA link ────────────────────────────────────────── */
   .chat {
     padding-top: 1.5%;
   }
 
   #chat-btn {
-    padding: 4%;
+    padding: 0 4%;
+    font-size: 10px;
   }
 
-  .stats-div {
-    position: absolute;
+  /* ── Hero: gradient circle — hide to prevent overflow ───────── */
+  #bg-circle,
+  #mini-circle {
+    display: none;
+  }
+
+  /* ── Hero: profile picture — shown, centered below hero text ── */
+  .image-bg-div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 4%;
+  }
+
+  .profile-picture {
+    position: static;
+    float: none;
+    right: auto;
+    bottom: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dp {
+    height: 280px;
+    margin-left: 0;
+  }
+
+  /* ── Hero: stats — inline row below picture ─────────────────── */
+  .stats-div {
+    position: static;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 5%;
-    padding-left: 2%;
+    gap: 16px;
+    justify-content: center;
+    padding: 4% 4% 5%;
   }
 
   .stats {
@@ -62,29 +120,33 @@
     background-color: transparent;
   }
 
+  .stats-data {
+    padding-top: 0;
+  }
+
   .stats-label-column {
-    padding-left: 5%;
+    padding-left: 8px;
   }
 
   .stats-label {
-    width: 200px;
+    width: max-content;
   }
 
-  .stats-data {
-    padding-top: 10%;
+  .value {
+    font-size: 26px;
   }
 
-  .profile-picture {
-    float: right;
-    position: relative;
-    right: 0%;
+  .space {
+    padding-top: 0;
   }
 
-  .dp {
-    height: 450px;
-    margin-left: 5%;
+  /* ── Section titles ────────────────────────────────────────── */
+  .section-title,
+  #about-me-title {
+    font-size: 28px;
   }
 
+  /* ── About ─────────────────────────────────────────────────── */
   .about {
     padding-top: 10%;
     flex-direction: column-reverse;
@@ -109,7 +171,12 @@
   }
 
   #about-img {
-    height: 450px;
+    height: auto;
+    width: 90%;
+  }
+
+  .memory-lane {
+    font-size: 64px;
   }
 
   .download-resume {
@@ -119,18 +186,66 @@
     padding-bottom: 5%;
   }
 
+  /* ── Tech stack ────────────────────────────────────────────── */
   .tech-stack {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .section-subtitle {
+    width: 90%;
+    max-width: 100%;
   }
 
   #stack-illustration {
-    height: 350px;
+    height: 300px;
+    width: auto;
   }
 
+  /* ── Experience timeline — single-column ────────────────────── */
   .exp-card {
     padding-left: 5%;
   }
 
+  #experience > ul {
+    grid-template-columns: var(--line-w) 1fr !important;
+    width: 95% !important;
+  }
+
+  #experience > ul::before {
+    grid-column: 1 !important;
+  }
+
+  #experience > ul li,
+  #experience > ul li:nth-child(odd),
+  #experience > ul li:nth-child(even) {
+    grid-column: 2 !important;
+  }
+
+  #experience > ul li:nth-child(2) {
+    grid-row: auto !important;
+  }
+
+  #experience > ul li .company-name,
+  #experience > ul li:nth-child(odd) .company-name {
+    border-radius: calc(var(--companyH) / 2) !important;
+    text-align: center !important;
+  }
+
+  #experience > ul li .company-name::after,
+  #experience > ul li:nth-child(odd) .company-name::after {
+    transform: translate(50%, -50%) !important;
+    right: calc(100% + var(--col-gap) + var(--line-w) / 2) !important;
+    left: auto !important;
+  }
+
+  #experience > ul li:nth-child(odd) .company-name::before {
+    clip-path: polygon(0 0, 100% 0, 0 100%) !important;
+    left: auto !important;
+    right: 0 !important;
+  }
+
+  /* ── Community ─────────────────────────────────────────────── */
   .community-div {
     flex-direction: column-reverse;
   }
@@ -146,8 +261,9 @@
   }
 
   .calendar {
-    width: 400px;
-    height: 350px;
+    width: min(400px, 90vw);
+    height: auto;
+    min-height: 300px;
   }
 
   .year-txt {
@@ -158,8 +274,18 @@
     padding-top: 5px;
   }
 
+  /* ── Contact ───────────────────────────────────────────────── */
   .contact-info-div {
-    padding-left: 5%;
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-card,
+  .contact-card:nth-child(1) {
+    width: min(400px, 90vw) !important;
   }
 
   #meet-btn {
