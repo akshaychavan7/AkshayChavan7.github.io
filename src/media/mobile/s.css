@@ -1,16 +1,24 @@
 @media only screen and (min-width: 401px) and (max-width: 480px) {
-  #brand {
-    font-size: calc(18px + 1vw);
-  }
 
+  /* ── Navbar ────────────────────────────────────────────────── */
   #app-navbar {
     padding-left: 2%;
-    padding-right: 10%;
+    padding-right: 2%;
   }
 
+  #brand {
+    font-size: calc(16px + 1vw);
+  }
+
+  /* ── Hero: chip & name ─────────────────────────────────────── */
   .tag-wrapper {
     padding-top: 5%;
     padding-left: 5%;
+  }
+
+  #chip {
+    font-size: 10px;
+    padding: 4px 12px;
   }
 
   .name {
@@ -18,41 +26,79 @@
     padding-top: 2%;
   }
 
+  #first-name {
+    font-size: 30px;
+    letter-spacing: 5px;
+  }
+
+  #last-name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+  }
+
+  /* ── Hero: terminal typing text ────────────────────────────── */
   .tag {
     padding-top: 2%;
     padding-left: 4%;
     display: flex;
   }
 
-  #tag {
-    color: white;
-    padding-left: 1%;
+  .type-text-container {
+    width: 90vw;
+    font-size: 12px;
+    padding: 12px;
+    height: auto;
   }
 
-  .trianlge-right {
-    margin-top: 3px;
-    width: 0;
-    height: 0;
-    border-top: 8px solid transparent;
-    border-left: 15px solid var(--color-primary);
-    border-bottom: 8px solid transparent;
-  }
-
+  /* ── Hero: social icons ────────────────────────────────────── */
   .flexbox-container {
     padding-top: 5%;
+    padding-left: 4%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 6px;
   }
 
   .social-icon-wrapper {
-    padding: 3.5%;
-    margin-right: 2%;
+    padding: 8px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
+  .dash {
+    display: none;
+  }
+
+  /* ── Hero: CTA link ────────────────────────────────────────── */
   .chat {
     padding-top: 5.5%;
   }
 
   #chat-btn {
-    padding: 4%;
+    padding: 0 4%;
+    font-size: 10px;
+  }
+
+  /* ── Hero: profile picture — hidden on S (too cramped) ─────── */
+  .profile-picture,
+  .dp {
+    display: none;
+  }
+
+  #bg-circle,
+  #mini-circle {
+    display: none;
+  }
+
+  /* ── Hero: stats — flow inline below hero text ─────────────── */
+  .stats-div {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 5% 4% 4%;
   }
 
   .stats {
@@ -60,40 +106,37 @@
     background-color: transparent;
   }
 
-  .stats-div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 3%;
-  }
-
   .stats-data {
     display: flex;
-    margin-left: 8%;
-    padding-top: 25px;
+    margin-left: 0;
+    padding-top: 0;
   }
 
   .stats-label-column {
-    width: 150px;
-    padding-left: 5%;
+    width: auto;
+    padding-left: 8px;
   }
 
-  .profile-picture {
-    right: -15%;
-    float: right;
-    padding-right: 0;
-    position: relative;
+  .value {
+    font-size: 24px;
   }
 
-  .dp {
-    height: 300px;
-    margin-left: 15%;
+  .stats-label {
+    font-size: 9px;
+    width: max-content;
   }
 
   .space {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
+  /* ── Section titles ────────────────────────────────────────── */
+  .section-title,
+  #about-me-title {
+    font-size: 24px;
+  }
+
+  /* ── About ─────────────────────────────────────────────────── */
   .about {
     padding-top: 10%;
     flex-direction: column-reverse;
@@ -102,6 +145,11 @@
 
   #about-img {
     width: 90%;
+    height: auto;
+  }
+
+  .memory-lane {
+    font-size: 56px;
   }
 
   .about-text {
@@ -122,20 +170,23 @@
     padding-bottom: 5%;
   }
 
+  /* ── Tech stack ────────────────────────────────────────────── */
   .tech-stack {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  #tech-stack-text {
+  .section-subtitle {
     width: 100%;
   }
 
   #stack-illustration {
-    height: 300px;
+    height: 260px;
+    width: auto;
   }
 
+  /* ── Experience timeline ───────────────────────────────────── */
   .exp-card {
     width: 95%;
     padding-top: 5%;
@@ -148,8 +199,57 @@
     width: 100%;
   }
 
+  /* Single-column timeline */
+  #experience > ul {
+    grid-template-columns: var(--line-w) 1fr !important;
+    width: 95% !important;
+  }
+
+  #experience > ul::before {
+    grid-column: 1 !important;
+  }
+
+  #experience > ul li,
+  #experience > ul li:nth-child(odd),
+  #experience > ul li:nth-child(even) {
+    grid-column: 2 !important;
+  }
+
+  #experience > ul li:nth-child(2) {
+    grid-row: auto !important;
+  }
+
+  #experience > ul li .company-name,
+  #experience > ul li:nth-child(odd) .company-name {
+    border-radius: calc(var(--companyH) / 2) !important;
+    text-align: center !important;
+  }
+
+  #experience > ul li .company-name::after,
+  #experience > ul li:nth-child(odd) .company-name::after {
+    transform: translate(50%, -50%) !important;
+    right: calc(100% + var(--col-gap) + var(--line-w) / 2) !important;
+    left: auto !important;
+  }
+
+  #experience > ul li:nth-child(odd) .company-name::before {
+    clip-path: polygon(0 0, 100% 0, 0 100%) !important;
+    left: auto !important;
+    right: 0 !important;
+  }
+
+  /* ── Community ─────────────────────────────────────────────── */
   .community-div {
     flex-direction: column-reverse;
+  }
+
+  .community-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .c-title {
+    font-size: 14px;
   }
 
   .cw-info {
@@ -162,17 +262,10 @@
     max-width: 100%;
   }
 
-  .community-card {
-    width: 100%;
-  }
-
-  .c-title {
-    font-size: 14px;
-  }
-
   .calendar {
-    width: 400px;
-    height: 350px;
+    width: min(400px, 90vw);
+    height: auto;
+    min-height: 300px;
   }
 
   .year-txt {
@@ -183,8 +276,19 @@
     padding-top: 5px;
   }
 
+  /* ── Contact ───────────────────────────────────────────────── */
   .contact-info-div {
-    padding-left: 5%;
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-card,
+  .contact-card:nth-child(1) {
+    width: calc(100vw - 40px) !important;
+    max-width: 380px !important;
   }
 
   #meet-btn {

@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   aosInit();
   setupLoader();
   getVisitorsCount();
+  setupNavbarScrollBehavior();
 
   window.onscroll = function () {
     $(document).on("scroll", onScroll);
@@ -144,14 +145,14 @@ function aosInit() {
 
 function onScroll(event) {
   var scrollPos = $(document).scrollTop();
-  $("#navbarMenu a").each(function () {
+  $("#navbar-menu a").each(function () {
     var currLink = $(this);
     var refElement = $(currLink.attr("href"));
     if (
       refElement.position().top <= scrollPos &&
       refElement.position().top + refElement.height() > scrollPos
     ) {
-      $("#navbarMenu ul li a").removeClass("active");
+      $("#navbar-menu ul li a").removeClass("active");
       currLink.addClass("active");
     } else {
       currLink.removeClass("active");
@@ -167,6 +168,20 @@ function downloadResume() {
     countsObj["Resume Download Count"] + 1
   );
   window.open("images/others/Akshay_Chavan_Resume.pdf", "_blank");
+}
+
+function setupNavbarScrollBehavior() {
+  const navbar = document.getElementById("app-navbar");
+  if (!navbar) return;
+  const onNavScroll = () => {
+    if (window.scrollY > 20) {
+      navbar.classList.add("navbar-scrolled");
+    } else {
+      navbar.classList.remove("navbar-scrolled");
+    }
+  };
+  window.addEventListener("scroll", onNavScroll, { passive: true });
+  onNavScroll(); // apply correct state on load
 }
 
 function setupLoader() {

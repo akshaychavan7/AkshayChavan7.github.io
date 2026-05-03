@@ -20,18 +20,10 @@
         visibility: hidden;
     }
 
-    .circle {
-        visibility: hidden;
-    }
-
     .cw-stats-row {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-    }
-
-    .profile-picture {
-        right: -10%;
     }
 
     .contact-row {
@@ -41,7 +33,7 @@
     }
 
     .contact-info-div {
-        padding-left: 0px;
+        padding-left: 0;
     }
 }
 

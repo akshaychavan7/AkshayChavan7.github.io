@@ -4,58 +4,44 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function mapContactDetails() {
-    let contactInfo = [
-        {
-            "icon": "fa fa-phone",
-            "label": "+1 617-708-7177",
-            "link": "https://wa.me/919822479700"
-        },
-        {
-            "icon": "fa fa-envelope",
-            "label": "akshaychavan.kkwedu@gmail.com",
-            "link": "mailto:akshaychavan.kkwedu@gmail.com"
-        },
-        {
-            "icon": "images/hire_me.png",
-            "label": "Hire Me",
-            "link": "https://www.linkedin.com/in/akshaychavan7/"
-        }
-    ];
+    const contactInfo = data.contactInfo;
 
-    for (var i = 0; i < contactInfo.length; i++) {
-        var c = contactInfo[i];
-        var icon = c.icon;
-        var label = c.label;
-        var link = c.link;
+    for (let i = 0; i < contactInfo.length; i++) {
+        const c = contactInfo[i];
+        const icon = c.icon;
+        const label = c.label;
+        const link = c.link;
 
-        var card = document.createElement("a");
+        const card = document.createElement("a");
         card.className = "contact-card";
-
         card.href = link;
         card.target = "_blank";
 
-        var iconDiv = label == "Hire Me" ? document.createElement("img") : document.createElement("i");
-        if (label != "Hire Me") {
-            iconDiv.className = icon;
-        } else {
+        const isImage = icon.startsWith("images/");
+        const iconDiv = isImage ? document.createElement("img") : document.createElement("i");
+        if (isImage) {
             iconDiv.src = icon;
             iconDiv.style.height = "24px";
+            iconDiv.alt = label;
+        } else {
+            iconDiv.className = icon;
         }
-        iconDiv.id = "mail-icon";
+        iconDiv.className = (iconDiv.className ? iconDiv.className + " " : "") + "contact-icon";
+        iconDiv.setAttribute("aria-hidden", "true");
 
-        var labelDiv = document.createElement("span");
+        const labelDiv = document.createElement("span");
         labelDiv.className = "body2 contact-label";
-        labelDiv.innerHTML = label;
+        labelDiv.textContent = label;
 
-        var chevDiv = document.createElement("i");
-        chevDiv.id = "chevron-icon";
-        chevDiv.className = "fa fa-chevron-right";
+        const chevDiv = document.createElement("i");
+        chevDiv.className = "fa fa-chevron-right contact-chevron";
+        chevDiv.setAttribute("aria-hidden", "true");
 
         card.appendChild(iconDiv);
         card.appendChild(labelDiv);
         card.appendChild(chevDiv);
 
-        var contactInfoDiv = document.getElementById("contact-info-div");
+        const contactInfoDiv = document.getElementById("contact-info-div");
         contactInfoDiv.insertBefore(card, contactInfoDiv.firstChild);
     }
 }
@@ -66,22 +52,11 @@ function onMeetClick() {
 
 function currentDate() {
     const current = new Date();
-    let monthName = current.toLocaleDateString('en-US', {
-        month: "long",
-    });
+    const monthName = current.toLocaleDateString('en-US', { month: "long" });
+    const date = current.getDate();
+    const dayName = current.toLocaleDateString('en-US', { weekday: "long" });
 
-    let date = current.getDate();
-
-    let dayName = current.toLocaleDateString('en-US', {
-        weekday: "long",
-    });
-
-    var monthText = document.getElementById("month");
-    monthText.innerHTML = monthName;
-
-    var dayText = document.getElementById("date");
-    dayText.innerHTML = date;
-
-    var weekDayText = document.getElementById("day");
-    weekDayText.innerText = dayName;
+    document.getElementById("month").textContent = monthName;
+    document.getElementById("date").textContent = date;
+    document.getElementById("day").textContent = dayName;
 }

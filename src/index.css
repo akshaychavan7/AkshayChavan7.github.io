@@ -1,3 +1,22 @@
+/* Skip navigation — visually hidden until focused */
+.skip-nav {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: var(--color-primary);
+  color: #000;
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 0 0 8px 0;
+  z-index: 9999;
+  transition: top 0.2s;
+  text-decoration: none;
+}
+
+.skip-nav:focus {
+  top: 0;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
   height: 5px;
@@ -17,6 +36,17 @@
   padding-top: 2%;
   padding-left: 10%;
   padding-right: 6%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s ease, box-shadow 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+#app-navbar.navbar-scrolled {
+  background: rgba(19, 20, 26, 0.82) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
 #navbar-icon {
@@ -77,16 +107,28 @@ nav .navbar-nav li a:hover {
   }
 }
 
+/* Subtle section top-border so sections feel separated */
+.about, .exp-div, .projects-div, .tech-stack,
+.education-div, .achievements-div, .certifications-div,
+.gallery-div, .contact-div {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Ambient glow behind the hero photo — was an invisible dark-on-dark gradient */
 .grad-circle {
   height: 650px;
   width: 650px;
-  background-image: linear-gradient(var(--bg-dark), var(--bg));
+  background: radial-gradient(circle at center,
+    rgba(91, 156, 246, 0.13) 0%,
+    rgba(167, 139, 250, 0.07) 45%,
+    transparent 70%);
   position: absolute;
   top: 25%;
   right: 2%;
   border-radius: 360px;
   animation: beat 2s;
   transform-origin: center;
+  pointer-events: none;
 }
 
 #mini-circle {
@@ -119,37 +161,7 @@ nav .navbar-nav li a:hover {
   }
 }
 
-.circle {
-  height: 20px;
-  width: 20px;
-  background-color: var(--color-primary);
-  border-radius: 360px;
-  position: absolute;
-  transform-origin: center;
-}
-
-#circle-1 {
-  animation: MoveUpDown 3s linear infinite;
-  margin-top: 2%;
-  right: 6%;
-}
-
-#circle-2 {
-  animation: MoveUpDown 3s linear infinite;
-  top: 60%;
-  right: 30%;
-}
-
-@keyframes MoveUpDown {
-  0%,
-  100% {
-    top: 60%;
-  }
-
-  50% {
-    top: 58%;
-  }
-}
+/* .circle elements removed — they were two 20px dots that drew the eye to nothing */
 
 .foot {
   display: flex;

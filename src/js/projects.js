@@ -3,83 +3,86 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function mapProjectsData() {
-    let projects = data.projects;
+    const projects = data.projects;
+    const projectsDiv = document.getElementById("projects");
 
-    for (var i = 0; i < projects.length; i++) {
-        var project = projects[i];
-        var title = project.title;
-        var type = project.type;
-        var image = project.image;
+    for (let i = 0; i < projects.length; i++) {
+        const project = projects[i];
+        const projectTitle = project.title;
+        const type = project.type;
+        const image = project.image;
+        const description = project.description || "";
 
-        var card = document.createElement('div');
+        const card = document.createElement('div');
         card.className = "project-card";
 
-        var imageDiv = document.createElement('div');
-        imageDiv.className = "p-image";
-        var projectLabel = document.createElement("div");
+        const projectLabel = document.createElement("div");
         projectLabel.className = "label p-type";
-        projectLabel.innerHTML = type;
+        projectLabel.textContent = type;
 
-        var projectImg = document.createElement("img");
+        const projectImg = document.createElement("img");
         projectImg.className = "p-image-bg";
         projectImg.src = image;
-        projectImg.alt = title;
+        projectImg.alt = projectTitle;
+        projectImg.loading = "lazy";
 
-        imageDiv.appendChild(projectLabel);
-        imageDiv.appendChild(projectImg);
-
-        var projectName = document.createElement("p");
+        const projectName = document.createElement("p");
         projectName.className = "body1 p-title";
-        projectName.innerHTML = title;
+        projectName.textContent = projectTitle;
 
-        var labels = document.createElement("div");
+        const projectDesc = document.createElement("p");
+        projectDesc.className = "p-description";
+        projectDesc.textContent = description;
+
+        const labels = document.createElement("div");
         labels.className = "p-labels";
 
-        for (var j = 0; j < project.labels.length; j++) {
-            var title = project.labels[j]["title"];
-            var link = project.labels[j]["link"];
+        for (let j = 0; j < project.labels.length; j++) {
+            const labelTitle = project.labels[j]["title"];
+            const link = project.labels[j]["link"];
 
-            var label = document.createElement('a');
+            const label = document.createElement('a');
             label.className = "p-label";
-            var labelIcon = document.createElement("i");
 
-            if (title == "App") {
+            const labelIcon = document.createElement("i");
+            labelIcon.setAttribute("aria-hidden", "true");
+
+            if (labelTitle === "App") {
                 labelIcon.className = "p-label-icon fa-brands fa-app-store";
-            } else if (title == "Play") {
+            } else if (labelTitle === "Play") {
                 labelIcon.className = "p-label-icon fa-brands fa-google-play";
-            } else if (title == "Web") {
+            } else if (labelTitle === "Web") {
                 labelIcon.className = "p-label-icon fa fa-globe";
-            } else if (title == "GitHub") {
+            } else if (labelTitle === "GitHub") {
                 labelIcon.className = "p-label-icon fa-brands fa-github";
-            } else if (title == "Demo") {
+            } else if (labelTitle === "Demo") {
                 labelIcon.className = "p-label-icon fa-brands fa-youtube";
-            } 
-            else if (title == "Package") {
+            } else if (labelTitle === "Package") {
                 labelIcon.className = "p-label-icon material-icons";
-                labelIcon.innerHTML = "widgets";
+                labelIcon.textContent = "widgets";
                 labelIcon.style.fontSize = "16px";
             }
 
-            var labelText = document.createElement("span");
+            const labelText = document.createElement("span");
             labelText.className = "label p-label-text";
-            labelText.innerHTML = title;
+            labelText.textContent = labelTitle;
 
             label.href = link;
             label.target = "_blank";
+            label.rel = "noopener noreferrer";
+            label.setAttribute("aria-label", `${labelTitle} for ${projectTitle}`);
 
             label.appendChild(labelIcon);
             label.appendChild(labelText);
-
             labels.appendChild(label);
         }
-
 
         card.appendChild(projectLabel);
         card.appendChild(projectImg);
         card.appendChild(projectName);
+        if (description) card.appendChild(projectDesc);
         card.appendChild(labels);
 
-        var projectsDiv = document.getElementById("projects");
         projectsDiv.appendChild(card);
     }
 }

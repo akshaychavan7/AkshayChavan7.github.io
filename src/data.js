@@ -4,6 +4,24 @@ let data = {
   role: "Software Development Engineer 2 @ Amazon",
   portfolioLink: "https://akshaychavan7.github.io/",
   metaTitle: "Akshay Chavan - Developer Portfolio",
+  isAvailableForWork: false,
+  contactInfo: [
+    {
+      icon: "fa fa-phone",
+      label: "+1 617-708-7177",
+      link: "https://wa.me/919822479700",
+    },
+    {
+      icon: "fa fa-envelope",
+      label: "akshaychavan.kkwedu@gmail.com",
+      link: "mailto:akshaychavan.kkwedu@gmail.com",
+    },
+    {
+      icon: "images/hire_me.png",
+      label: "Hire Me",
+      link: "https://www.linkedin.com/in/akshaychavan7/",
+    },
+  ],
   aboutMeText: `I'm a <span class="rich-letters">Software Development Engineer II at Amazon</span> with over 5 years of experience building scalable, user-focused applications across cloud-native and distributed systems. I hold a <span class="rich-letters">Master’s in Computer Science from Northeastern University, Boston</span>.<br/><br/>
 
 My work spans multiple technologies, including MEAN and MERN stacks, Ruby on Rails, Java, and Android development. At Amazon, I focus on designing and scaling high-impact systems that power vendor-facing experiences and support large-scale business operations.<br/><br/>
@@ -474,9 +492,9 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
         "HTML",
       ],
       details: [
-        "Spearheaded the design and implementation of high-performance structured trading applications for leading banks in Asia, including Bank of China and UBS, contributing to a monthly revenue of over $1 million.",
-        "Optimized code and streamlined backend procedures for multiple software products within FinIQ's development environment, yielding a remarkable 15% boost in product performance coupled with a 20% reduction in maintenance time.",
-        "Established a CI/CD pipeline for a large-scale web application, slashing deployment time by 80% and elevating software release reliability. Employed rigorous code reviews, load/stress testing, and diverse testing frameworks to ensure impeccable software delivery.",
+        "Contributed to the development of structured trading web applications for leading banks in Asia, gaining hands-on experience with Angular, Node.js, and financial domain workflows.",
+        "Assisted in optimizing backend procedures and resolving bugs across multiple software products in FinIQ's development environment.",
+        "Worked alongside senior engineers on a CI/CD pipeline setup, learning best practices in code review, testing frameworks, and deployment workflows.",
       ],
       accentColor: "#446b85",
     },
@@ -484,6 +502,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
   projects: [
     {
       title: "Pass the Plate",
+      description: "A food-sharing platform connecting people with surplus home-cooked meals to reduce waste and build community.",
       image: "images/projects/pass-the-plate.png",
       type: "Open Source",
       labels: [
@@ -499,6 +518,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "StudyBuddy",
+      description: "AI-powered learning platform that converts video lectures and PDFs into flashcards, notes, and mind maps. Won the Moonshot Venture Award at SharkHack'25.",
       image: "images/projects/studybuddy.jpg",
       type: "Open Source",
       labels: [
@@ -514,6 +534,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "HireU",
+      description: "AI-driven hiring platform that streamlines recruitment with intelligent candidate matching. Won Best GenAI at BU Spark'25.",
       image: "images/projects/HireU.png",
       type: "Open Source",
       labels: [
@@ -529,6 +550,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "PDF Sensei",
+      description: "Chat with your PDFs — upload any document and use LLMs to ask questions, extract insights, and summarize content instantly.",
       image: "images/projects/pdf_sensei.png",
       type: "Open Source",
       labels: [
@@ -544,6 +566,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "useHookFormContextState",
+      description: "Published npm package providing custom React hooks for sharing and synchronizing form state across deeply nested components.",
       image: "images/projects/useHookFormContextState.png",
       type: "Open Source",
       labels: [
@@ -555,6 +578,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "Portable Antivirus System",
+      description: "Bootable USB-based antivirus that scans and removes malware from Windows machines without requiring an OS installation.",
       image: "images/projects/portable-antivirus-system.png",
       type: "Open Source",
       labels: [
@@ -566,6 +590,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "vaxicov",
+      description: "Android app using India's CoWIN API to provide real-time Covid-19 vaccine center availability by location and age group.",
       image: "images/projects/vaxicov.png",
       type: "Open Source",
       labels: [
@@ -581,6 +606,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "Image Processing Application",
+      description: "Desktop app for applying image filters and transformations — blur, sharpen, edge detection, and more — built with Java Swing.",
       image: "images/projects/Image Processing App.png",
       type: "Private",
       labels: [
@@ -592,6 +618,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "RetailHub",
+      description: "Full-stack e-commerce web app with product catalog, cart, and checkout built with React and Node.js.",
       image: "images/projects/RetailHub.png",
       type: "Private",
       labels: [
@@ -607,6 +634,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "FlashX",
+      description: "Android flashcard app with spaced repetition, category organization, and progress tracking to make studying faster.",
       image: "images/projects/FlashX.png",
       type: "Open Source",
       labels: [
@@ -622,6 +650,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "PriceLabs",
+      description: "Dynamic pricing dashboard for short-term rental properties, showcasing real-time price adjustment strategies.",
       image: "images/projects/pricelabs.png",
       type: "Open Source",
       labels: [
@@ -633,6 +662,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "Study Cloud React App",
+      description: "Cloud-based note-taking and study material management React app with real-time sync and organized subject grouping.",
       image: "images/projects/study-cloud.png",
       type: "Open Source",
       labels: [
@@ -648,6 +678,7 @@ Outside of work, I love hiking new trails, traveling to offbeat places, and gett
     },
     {
       title: "Halo - Color Changing Light Bulb",
+      description: "IoT project: a smart RGB light bulb controlled via an Android app using Arduino and Bluetooth communication.",
       image: "images/projects/color-changing-bulb.jpg",
       type: "Open Source",
       labels: [

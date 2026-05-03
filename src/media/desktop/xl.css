@@ -5,22 +5,20 @@
         padding-left: 10%;
     }
 
-    #chip {
-        width: 19.5em;
-    }
-
-    .tag-title {
-        font-size: 12px;
-    }
-
     .name {
         padding-top: 1%;
         padding-left: 10%;
     }
 
-    #first-name,
+    #first-name {
+        font-size: 82px;
+        letter-spacing: 14px;
+    }
+
     #last-name {
-        font-size: 52px;
+        font-size: 82px;
+        letter-spacing: 4px;
+        line-height: 1;
     }
 
     .tag {
